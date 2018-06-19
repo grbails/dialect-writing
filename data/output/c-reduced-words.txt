@@ -1,0 +1,8 @@
+standard.orth	phonetic.orth
+doesn't	dunt
+didn't	dint
+wasn't	want
+isn't	int
+of	o
+of	a
+with	wi

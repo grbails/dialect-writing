@@ -1,0 +1,13 @@
+standard.orth	phonetic.orth
+your	yer
+yourself	yerself
+you	ye
+you	ya
+I've	av
+I	a
+I	ah
+our	are
+our	ar
+my	mi
+my	ma
+were	wer

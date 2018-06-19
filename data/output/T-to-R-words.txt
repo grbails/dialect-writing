@@ -1,0 +1,7 @@
+standard.orth	phonetic.orth
+lot of	lorra
+get a	gerra
+get out	gerrout
+get off	gerroff
+get up	gerrup
+shut up	shurrup

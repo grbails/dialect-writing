@@ -1,0 +1,1098 @@
+standard.orth	standard.phones	zipf	fpmw	phonetic.orth	type
+about	AH0 B AW1 T	6.51	3265.89038401554	aboot	ou
+out	AW1 T	6.48	3039.25882953636	oot	ou
+now	N AW1	6.44	2729.8252271332	noo	ow
+how	HH AW1	6.33	2155.31679444668	hoo	ow
+our	AW1 ER0	6.22	1665.89018534228	oor	ou
+down	D AW1 N	6.09	1231.68480884652	doon	ow
+around	ER0 AW1 N	5.86	726.250101820046	aroond	ou
+house	HH AW1 S	5.83	671.952699870266	hoose	ou
+round	R AW1 N D	5.71	517.89648725809	roond	ou
+found	F AW1 N D	5.58	381.502327457241	foond	ou
+without	W IH2 DH AW1 T	5.46	288.667279904796	withoot	ou
+south	S AW1 TH	5.36	228.752391529367	sooth	ou
+outside	AW1 T S AY1 D	5.32	209.451284323289	ootside	ou
+power	P AW1 ER0	5.29	194.853766546999	pooer	ow
+hours	AW1 ER0 Z	5.28	188.714762813929	hoors	ou
+wow	W AW1	5.28	192.489554753357	woo	ow
+town	T AW1 N	5.24	172.239782730923	toon	ow
+ground	G R AW1 N D	5.19	154.910507630047	groond	ou
+hour	AW1 ER0	5.17	149.163883585417	hoor	ou
+sound	S AW1 N D	5.16	146.322855967847	soond	ou
+council	K AW1 N S AH0 L	5.14	137.049781558751	cooncil	ou
+sounds	S AW1 N D Z	5.1	125.799908212954	soonds	ou
+amount	AH0 M AW1 N T	5.07	117.336427338235	amoont	ou
+thousands	TH AW1 Z AH0 N D Z	5.03	106.270326757911	thoosands	ou
+brown	B R AW1 N	5.01	102.276994232515	broon	ow
+proud	P R AW1 D	4.99	98.2290265606281	prood	ou
+allowed	AH0 L AW1 D	4.98	96.4658013783951	allooed	ow
+doubt	D AW1 T	4.89	78.0438233476842	doobt	ou
+houses	HH AW1 S AH0 Z	4.88	76.2110625244616	hooses	ou
+throughout	TH R UW0 AW1 T	4.81	64.8121842336874	throoghout	ou
+mouth	M AW1 TH	4.78	60.3619032103612	mooth	ou
+cloud	K L AW1 D	4.77	58.3205354641703	clood	ou
+county	K AW1 N IY0	4.77	58.6632468376184	coonty	ou
+pounds	P AW1 N D Z	4.77	58.3503364531658	poonds	ou
+allow	AH0 L AW1	4.76	57.034126105865	alloo	ow
+crowd	K R AW1 D	4.76	58.1218622042003	crood	ow
+flowers	F L AW1 ER0 Z	4.73	53.8305197888501	flooers	ow
+count	K AW1 N T	4.71	51.3818718597208	coont	ou
+housing	HH AW1 Z AH0 N	4.71	50.885188709796	hoosing	ou
+powerful	P AW1 ER0 F AH0 L	4.71	51.6898154126742	pooerful	ow
+showers	SH AW1 ER0 Z	4.68	47.9448244622412	shooers	ow
+account	AH0 K AW1 N T	4.67	46.9017898473991	accoont	ou
+powers	P AW1 ER0 Z	4.66	45.9233240420472	pooers	ow
+mountain	M AW1 N T AH0 N	4.64	44.1799661858112	moontain	ou
+announced	AH0 N AW1 N S T	4.62	41.2942370847481	annoonced	ou
+route	R AW1 T	4.6	39.9829935689466	roote	ou
+crown	K R AW1 N	4.53	33.903591813867	croon	ow
+ow	AW1	4.53	34.0525967588444	oo	ow
+shower	SH AW1 ER0	4.52	33.0790977849918	shooer	ow
+pound	P AW1 N D	4.51	32.701618591049	poond	ou
+flower	F L AW1 ER0	4.5	31.7330864486956	flooer	ow
+tower	T AW1 ER0	4.5	31.7926884266866	tooer	ow
+councils	K AW1 N S AH0 L Z	4.48	30.4168761013949	cooncils	ou
+loud	L AW1 D	4.48	30.4566107533889	lood	ou
+cow	K AW1	4.44	27.5659148208265	coo	ow
+shout	SH AW1 T	4.43	26.895392568428	shoot	ou
+mouse	M AW1 S	4.41	26.0063297300626	moose	ou
+flour	F L AW1 ER0	4.39	24.7149535402582	floor	ou
+mountains	M AW1 N T AH0 N Z	4.39	24.5162802802882	moontains	ou
+thousand	TH AW1 Z AH0 N	4.36	22.8474248965409	thoosand	ou
+bound	B AW1 N D	4.34	21.9136605746823	boond	ou
+towns	T AW1 N Z	4.34	21.7398214722086	toons	ow
+howard	HH AW1 ER0 D	4.33	21.4716125712492	hooard	ow
+ours	AW1 ER0 Z	4.31	20.4832131028988	oors	ou
+bounce	B AW1 N S	4.3	19.8375250079966	boonce	ou
+household	HH AW1 S HH OW2 L D	4.3	19.7779230300056	hoosehold	ou
+shouting	SH AW1 T IH0 NG	4.3	20.0908334144582	shooting	ou
+counter	K AW1 N T ER0	4.29	19.544481949541	coonter	ou
+outcome	AW1 T K AH2 M	4.28	19.0626992941139	ootcome	ou
+allows	AH0 L AW1 Z	4.27	18.5213146606959	alloos	ow
+announcement	AH0 N AW1 N S M AH0 N T	4.27	18.4517790197064	annooncement	ou
+grounds	G R AW1 N D Z	4.27	18.4666795142041	groonds	ou
+accounts	AH0 K AW1 N T S	4.25	17.7713231043094	accoonts	ou
+cows	K AW1 Z	4.25	17.9054275547891	coos	ow
+surrounded	S ER0 AW1 N D AH0 D	4.24	17.3690097528703	surroonded	ou
+trousers	T R AW1 Z ER0 Z	4.24	17.562716181341	troosers	ou
+clouds	K L AW1 D Z	4.23	17.0362320424207	cloods	ou
+amounts	AH0 M AW1 N T S	4.22	16.4600795885079	amoonts	ou
+bow	B AW1	4.22	16.5693498814914	boo	ow
+rounds	R AW1 N D Z	4.22	16.4501459255094	roonds	ou
+allowing	AH0 L AW1 IH0 NG	4.2	15.9931974275786	allooing	ow
+crowds	K R AW1 D Z	4.2	15.9484959440854	croods	ow
+lounge	L AW1 N JH	4.19	15.5511494241456	loonge	ou
+counting	K AW1 N AH0 N	4.18	15.05943310572	coonting	ou
+downing	D AW1 N IH0 NG	4.18	15.1091014207125	dooning	ow
+cloudy	K L AW1 D IY0	4.17	14.6769870802779	cloody	ou
+powder	P AW1 D ER0	4.17	14.7614232157651	pooder	ow
+allowance	AH0 L AW1 AH0 N S	4.16	14.6074514392884	allooance	ow
+sounded	S AW1 N D AH0 D	4.16	14.3491762013275	soonded	ou
+nowadays	N AW1 AH0 D EY2 Z	4.15	14.1058014578644	nooadays	ow
+counts	K AW1 N T S	4.13	13.4750138574599	coonts	ou
+outfit	AW1 T F IH2 T	4.13	13.6240188024373	ootfit	ou
+surrounding	S ER0 AW1 N D IH0 NG	4.13	13.4253455424674	surroonding	ou
+mount	M AW1 N T	4.12	13.2415727769952	moont	ou
+founded	F AW1 N D AH0 D	4.11	12.9534965500388	foonded	ou
+wound	W AW1 N D	4.1	12.6803208175802	woond	ou
+announce	AH0 N AW1 N S	4.09	12.4270124111186	annoonce	ou
+owl	AW1 L	4.07	11.7415896642223	ool	ow
+cowboy	K AW1 B OY2	4.06	11.5180822467562	cooboy	ow
+boundaries	B AW1 N D ER0 IY0 Z	4.04	10.9071619723487	boondaries	ou
+foul	F AW1 L	4.03	10.6985550493802	fool	ou
+thou	DH AW1	4.03	10.7035218808795	thoo	ou
+outer	AW1 T ER0	4.01	10.1571704159622	ooter	ou
+encounter	EH0 N K AW1 N ER0	3.97	9.35254371308402	encoonter	ou
+sour	S AW1 ER0	3.97	9.37241103908102	soor	ou
+doubts	D AW1 T S	3.96	9.01976600263441	doobts	ou
+download	D AW1 N L OW2 D	3.96	9.21843926260433	doonload	ow
+trout	T R AW1 T	3.96	9.21347243110508	troot	ou
+outdoor	AW1 T D AO2 R	3.95	8.88566155215471	ootdoor	ou
+bouncing	B AW1 N S AH0 N	3.93	8.44361354872164	booncing	ou
+counted	K AW1 N AH0 D	3.93	8.5230828527096	coonted	ou
+powell	P AW1 AH0 L	3.93	8.52804968420885	pooell	ow
+discount	D IH2 S K AW1 N T	3.92	8.34924375023592	discoont	ou
+louder	L AW1 D ER0	3.92	8.31944276124044	looder	ou
+routes	R AW1 T S	3.92	8.32937642423893	rootes	ou
+towers	T AW1 ER0 Z	3.92	8.23003979425397	tooers	ow
+ouch	AW1 CH	3.91	8.05620069178029	ooch	ou
+powered	P AW1 ER0 D	3.91	8.18533831076074	pooered	ow
+renowned	R AH0 N AW1 N D	3.91	8.11083583827202	renooned	ow
+boundary	B AW1 N D ER0 IY0	3.9	7.91712940980135	boondary	ou
+clown	K L AW1 N	3.9	7.91712940980135	cloon	ow
+profound	P R OW0 F AW1 N D	3.9	7.95686406179533	profoond	ou
+counties	K AW1 N IY0 Z	3.89	7.69362199233519	coonties	ou
+drought	D R AW1 T	3.88	7.61911951984646	drooght	ou
+bouncy	B AW1 N S IY0	3.87	7.37574477638331	booncy	ou
+households	HH AW1 S HH OW2 L D Z	3.87	7.46018091187053	hooseholds	ou
+towel	T AW1 AH0 L	3.87	7.34594378738782	tooel	ow
+downs	D AW1 N Z	3.86	7.24660715740286	doons	ow
+shouted	SH AW1 T AH0 D	3.86	7.18700517941189	shooted	ou
+outdoors	AW1 T D AO1 R Z	3.85	7.04296706593369	ootdoors	ou
+sounding	S AW1 N D AH0 N	3.84	6.86416113196077	soonding	ou
+crowned	K R AW1 N D	3.83	6.76482450197581	crooned	ow
+founder	F AW1 N D ER0	3.82	6.68038836648859	foonder	ou
+mounted	M AW1 N AH0 D	3.82	6.57608490500438	moonted	ou
+undoubtedly	AH0 N D AW1 T AH0 D L IY0	3.82	6.65555420899235	undoobtedly	ou
+accountability	AH0 K AW1 N AH0 B IH2 L AH0 T IY0	3.81	6.41714629702844	accoontability	ou
+outlook	AW1 T L UH2 K	3.81	6.5164829270134	ootlook	ou
+outskirts	AW1 T S K ER2 T S	3.8	6.2780750150495	ootskirts	ou
+compound	K AH0 M P AW1 N D	3.79	6.17873838506454	compoond	ou
+accountable	AH0 K AW1 N AH0 B AH0 L	3.78	6.08436858657883	accoontable	ou
+crowded	K R AW1 D AH0 D	3.78	5.97013146209612	crooded	ow
+surroundings	S ER0 AW1 N D IH0 NG Z	3.78	5.96516463059687	surroondings	ou
+mouths	M AW1 DH Z	3.77	5.91052948410515	mooths	ou
+output	AW1 T P UH2 T	3.77	5.82112651711868	ootput	ou
+coulson	K AW1 L S AH0 N	3.76	5.71185622413523	coolson	ou
+downhill	D AW1 N HH IH0 L	3.76	5.80622602262094	doonhill	ow
+scout	S K AW1 T	3.76	5.74662404462996	scoot	ou
+outbreak	AW1 T B R EY2 K	3.75	5.60755276265102	ootbreak	ou
+outs	AW1 T S	3.75	5.56285127915778	oots	ou
+bout	B AW1 T	3.74	5.5231166271638	boot	ou
+outfits	AW1 T F IH2 T S	3.74	5.44861415467508	ootfits	ou
+owls	AW1 L Z	3.74	5.44364732317583	ools	ow
+roundabout	R AW1 N D AH0 B AW2 T	3.73	5.32444336719388	roondabout	ou
+meow	M IY0 AW1	3.71	5.15557109621945	meoo	ow
+bounced	B AW1 N S T	3.7	5.03636714023749	boonced	ou
+outbreaks	AW1 T B R EY2 K S	3.7	5.06616812923298	ootbreaks	ou
+snout	S N AW1 T	3.7	5.06616812923298	snoot	ou
+mounting	M AW1 N T IH0 NG	3.69	4.85259437476532	moonting	ou
+rounded	R AW1 N D AH0 D	3.69	4.84762754326607	roonded	ou
+accountant	AH0 K AW1 N T AH0 N T	3.68	4.82279338576983	accoontant	ou
+countdown	K AW1 N T D AW2 N	3.68	4.7681582392781	coontdown	ou
+countless	K AW1 N T L AH0 S	3.68	4.77312507077735	coontless	ou
+drowned	D R AW1 N D	3.68	4.78305873377585	drooned	ow
+outline	AW1 T L AY2 N	3.68	4.83272704876832	ootline	ou
+coward	K AW1 ER0 D	3.67	4.68868893529013	cooard	ow
+fountain	F AW1 N T AH0 N	3.67	4.69365576678938	foontain	ou
+announcing	AH0 N AW1 N S IH0 NG	3.66	4.53968399031269	annooncing	ou
+pow	P AW1	3.66	4.55955131630968	poo	ow
+hound	HH AW1 N D	3.65	4.45524785482548	hoond	ou
+outcomes	AW1 T K AH2 M Z	3.65	4.51484983281645	ootcomes	ou
+counterfeit	K AW1 N ER0 F IH2 T	3.64	4.32114340434578	coonterfeit	ou
+plough	P L AW1	3.64	4.39067904533525	ploogh	ou
+flowering	F L AW1 ER0 IH0 NG	3.63	4.2615414263548	flooering	ow
+grounded	G R AW1 N D AH0 D	3.63	4.28637558385104	groonded	ou
+announcements	AH0 N AW1 N S M AH0 N T S	3.62	4.16717162786909	annooncements	ou
+couch	K AW1 CH	3.62	4.12743697587511	cooch	ou
+outta	AW1 T AH0	3.62	4.13240380737435	ootta	ou
+sow	S AW1	3.62	4.18207212236683	soo	ow
+sprouts	S P R AW1 T S	3.62	4.17710529086759	sproots	ou
+allowances	AH0 L AW1 AH0 N S AH0 Z	3.61	4.03306717738939	allooances	ow
+drown	D R AW1 N	3.61	4.02810034589015	droon	ow
+downturn	D AW1 N T ER2 N	3.59	3.92876371590519	doonturn	ow
+gown	G AW1 N	3.59	3.86916173791421	goon	ow
+outlined	AW1 T L AY2 N D	3.59	3.90889638990819	ootlined	ou
+surround	S ER0 AW1 N D	3.59	3.90392955840895	surroond	ou
+aloud	AH0 L AW1 D	3.58	3.78969243392624	alood	ou
+cowboys	K AW1 B OY2 Z	3.58	3.7747919394285	cooboys	ow
+downside	D AW1 N S AY2 D	3.58	3.83936074891872	doonside	ow
+drowning	D R AW1 N IH0 NG	3.58	3.79465926542549	drooning	ow
+outrage	AW1 T R EY2 JH	3.58	3.83439391741947	ootrage	ou
+encountered	EH0 N K AW1 N ER0 D	3.57	3.73505728743451	encoontered	ou
+pronounce	P R AH0 N AW1 N S	3.57	3.70525629843902	pronoonce	ou
+shouts	SH AW1 T S	3.57	3.67545530944354	shoots	ou
+proudly	P R AW1 D L IY0	3.56	3.59598600545557	proodly	ou
+scouts	S K AW1 T S	3.54	3.44698106047813	scoots	ou
+profoundly	P R OW0 F AW1 N D L IY0	3.53	3.37247858798941	profoondly	ou
+youse	Y AW1 S	3.52	3.27314195800445	yoose	ou
+grouse	G R AW1 S	3.5	3.1340706760255	groose	ou
+loudly	L AW1 D L IY0	3.5	3.1340706760255	loodly	ou
+outright	AW1 T R AY1 T	3.5	3.15393800202249	ootright	ou
+towels	T AW1 AH0 L Z	3.5	3.14897117052325	tooels	ow
+bounds	B AW1 N D Z	3.49	3.09930285553077	boonds	ou
+downtown	D AW1 N T AW0 N	3.49	3.07943552953377	doontown	ow
+pounding	P AW1 N D IH0 NG	3.49	3.11420335002851	poonding	ou
+bouncer	B AW1 N S ER0	3.48	3.03473404604054	booncer	ou
+founding	F AW1 N D IH0 NG	3.48	2.99003256254731	foonding	ou
+housed	HH AW1 Z D	3.48	3.03473404604054	hoosed	ou
+outgoing	AW1 T G OW2 IH0 NG	3.48	3.04963454053829	ootgoing	ou
+bowel	B AW1 AH0 L	3.47	2.95526474205257	booel	ow
+outlay	AW1 T L EY2	3.47	2.95029791055332	ootlay	ou
+housewife	HH AW1 S W AY2 F	3.46	2.8857291010631	hoosewife	ou
+counsel	K AW1 N S AH0 L	3.45	2.81122662857438	coonsel	ou
+encounters	EH0 N K AW1 N ER0 Z	3.44	2.7714919765804	encoonters	ou
+mouthful	M AW1 TH F UH2 L	3.44	2.74665781908416	moothful	ou
+ounce	AW1 N S	3.44	2.77645880807964	oonce	ou
+accounting	AH0 K AW1 N IH0 NG	3.43	2.67712217809468	accoonting	ou
+dow	D AW1	3.43	2.69202267259243	doo	ow
+fowl	F AW1 L	3.43	2.70195633559092	fool	ow
+mound	M AW1 N D	3.43	2.68208900959393	moond	ou
+outset	AW1 T S EH2 T	3.43	2.67215534659544	ootset	ou
+vows	V AW1 Z	3.43	2.69698950409168	voos	ow
+pronounced	P R AH0 N AW1 N S T	3.42	2.61752020010371	pronoonced	ou
+bounces	B AW1 N S AH0 Z	3.41	2.58275237960897	boonces	ou
+counterparts	K AW1 N ER0 P AA2 R T S	3.41	2.54301772761499	coonterparts	ou
+outing	AW1 T IH0 NG	3.41	2.54798455911423	ooting	ou
+thereabouts	DH EH2 R AH0 B AW1 T S	3.41	2.55295139061348	thereaboots	ou
+clowns	K L AW1 N Z	3.4	2.50824990712025	cloons	ow
+fowler	F AW1 L ER0	3.39	2.44368109763003	fooler	ow
+ounces	AW1 N S AH0 Z	3.39	2.45858159212777	oonces	ou
+downfall	D AW1 N F AO2 L	3.38	2.3791122881398	doonfall	ow
+lough	L AW1	3.38	2.41884694013379	loogh	ou
+sprout	S P R AW1 T	3.38	2.41388010863454	sproot	ou
+brownlee	B R AW1 N L IY0	3.37	2.31454347864958	broonlee	ow
+dowler	D AW1 L ER0	3.37	2.33937763614582	dooler	ow
+nowt	N AW1 T	3.36	2.29964298415183	noot	ow
+pouch	P AW1 CH	3.36	2.28970932115334	pooch	ou
+soundtrack	S AW1 N D T R AE2 K	3.36	2.27480882665559	soondtrack	ou
+towering	T AW1 ER0 IH0 NG	3.36	2.30957664715033	tooering	ow
+crouch	K R AW1 CH	3.35	2.22017368016387	crooch	ou
+lousy	L AW1 Z IY0	3.35	2.25990833215785	loosy	ou
+bows	B AW1 Z	3.34	2.19037269116838	boos	ow
+doubting	D AW1 T IH0 NG	3.34	2.20527318566612	doobting	ou
+downwards	D AW1 N W ER0 D Z	3.34	2.17547219667063	doonwards	ow
+howling	HH AW1 L AH0 N	3.34	2.20030635416687	hooling	ow
+lowry	L AW1 R IY0	3.34	2.17547219667063	loory	ow
+outraged	AW1 T R EY2 JH D	3.34	2.20527318566612	ootraged	ou
+powerless	P AW1 ER0 L AH0 S	3.34	2.16057170217289	pooerless	ow
+counsellor	K AW1 N S AH0 L ER0	3.33	2.12580388167815	coonsellor	ou
+astounding	AH0 S T AW1 N D IH0 NG	3.32	2.08606922968417	astoonding	ou
+bounty	B AW1 N T IY0	3.32	2.08606922968417	boonty	ou
+doubted	D AW1 T AH0 D	3.32	2.09103606118342	doobted	ou
+browne	B R AW1 N	3.31	2.0165335886947	broone	ow
+downgraded	D AW1 N G R EY0 D AH0 D	3.31	2.0165335886947	doongraded	ow
+howell	HH AW1 AH0 L	3.31	2.0165335886947	hooell	ow
+ploughed	P L AW1 D	3.31	2.03640091469169	plooghed	ou
+surrounds	S ER0 AW1 N D Z	3.31	2.05130140918943	surroonds	ou
+downsize	D AW1 N S AY2 Z	3.3	1.99169943119846	doonsize	ow
+overpowering	OW1 V ER0 P AW1 R IH0 NG	3.3	1.97183210520146	overpooering	ow
+superpower	S UW2 P ER0 P AW1 ER0	3.3	2.01156675719545	superpooer	ow
+brownie	B R AW1 N IY0	3.29	1.95196477920447	broonie	ow
+downward	D AW1 N W ER0 D	3.29	1.94699794770522	doonward	ow
+brow	B R AW1	3.28	1.92216379020898	broo	ow
+clough	K L AW1	3.28	1.89732963271274	cloogh	ou
+countess	K AW1 N T AH0 S	3.28	1.91223012721049	coontess	ou
+gower	G AW1 ER0	3.28	1.89732963271274	gooer	ow
+howl	HH AW1 L	3.28	1.91223012721049	hool	ow
+mounts	M AW1 N T S	3.28	1.90229646421199	moonts	ou
+outlet	AW1 T L EH2 T	3.28	1.91719695870974	ootlet	ou
+ploughing	P L AW1 IH0 NG	3.28	1.91719695870974	plooghing	ou
+stout	S T AW1 T	3.28	1.88739596971425	stoot	ou
+announces	AH0 N AW1 N S AH0 Z	3.27	1.86256181221801	annoonces	ou
+compounds	K AH0 M P AW1 N D Z	3.27	1.86752864371726	compoonds	ou
+downsizing	D AW1 N S AY2 Z IH0 NG	3.27	1.85759498071876	doonsizing	ow
+loudest	L AW1 D AH0 S T	3.27	1.85262814921951	loodest	ou
+outlaw	AW1 T L AO2	3.27	1.87746230671575	ootlaw	ou
+run-down	R AH1 N D AW1 N	3.27	1.86752864371726	run-doon	ow
+vouchers	V AW1 CH ER0 Z	3.27	1.85262814921951	voochers	ou
+howe	HH AW1	3.26	1.80295983422703	hooe	ow
+accountants	AH0 K AW1 N T AH0 N T S	3.25	1.78309250823004	accoontants	ou
+brownies	B R AW1 N IY0 Z	3.25	1.7582583507338	broonies	ow
+housekeeper	HH AW1 S K IY2 P ER0	3.25	1.79302617122854	hoosekeeper	ou
+scour	S K AW1 ER0	3.25	1.7681920137323	scoor	ou
+powerhouse	P AW1 ER0 HH AW2 S	3.24	1.74335785623606	pooerhouse	ou
+prowess	P R AW1 AH0 S	3.24	1.7483246877353	prooess	ow
+rebound	R IY0 B AW1 N D	3.24	1.72349053023906	reboond	ou
+vowed	V AW1 D	3.24	1.74335785623606	vooed	ow
+browse	B R AW1 Z	3.23	1.68375587824508	broose	ow
+counterpart	K AW1 N ER0 P AA2 R T	3.23	1.69368954124358	coonterpart	ou
+groundbreaking	G R AW1 N B R EY2 K IH0 NG	3.23	1.70859003574132	groondbreaking	ou
+outspoken	AW1 T S P OW1 K AH0 N	3.23	1.69865637274282	ootspoken	ou
+scouring	S K AW1 ER0 IH0 NG	3.23	1.71355686724057	scooring	ou
+all-out	AO2 L AW1 T	3.22	1.65395488924959	all-oot	ou
+outdated	AW1 T D EY2 T AH0 D	3.22	1.65395488924959	ootdated	ou
+powering	P AW1 ER0 IH0 NG	3.22	1.6440212262511	pooering	ow
+trouser	T R AW1 Z ER0	3.22	1.65892172074884	trooser	ou
+fountains	F AW1 N T AH0 N Z	3.21	1.62912073175335	foontains	ou
+frown	F R AW1 N	3.21	1.61918706875486	froon	ow
+hounds	HH AW1 N D Z	3.21	1.60428657425711	hoonds	ou
+housework	HH AW1 S W ER2 K	3.21	1.61918706875486	hoosework	ou
+powdered	P AW1 D ER0 D	3.21	1.61918706875486	poodered	ow
+spout	S P AW1 T	3.21	1.61918706875486	spoot	ou
+discounts	D IH2 S K AW1 N T S	3.2	1.56455192226313	discoonts	ou
+vow	V AW1	3.2	1.58938607975937	voo	ow
+vowels	V AW1 AH0 L Z	3.2	1.58441924826012	vooels	ow
+browning	B R AW1 N IH0 NG	3.19	1.53475093326764	brooning	ow
+doubtful	D AW1 T F AH0 L	3.19	1.55958509076388	doobtful	ou
+downstream	D AW1 N S T R IY2 M	3.19	1.52978410176839	doonstream	ow
+howdy	HH AW1 D IY0	3.19	1.54468459626613	hoody	ow
+pounce	P AW1 N S	3.19	1.53971776476689	poonce	ou
+resounding	R IY0 S AW1 N D IH0 NG	3.19	1.52978410176839	resoonding	ou
+ultrasound	AH2 L T R AH0 S AW1 N D	3.19	1.53971776476689	ultrasoond	ou
+voucher	V AW1 CH ER0	3.19	1.54468459626613	voocher	ou
+accounted	AH0 K AW1 N AH0 D	3.18	1.51488360727065	accoonted	ou
+founders	F AW1 N D ER0 Z	3.18	1.5099167757714	foonders	ou
+crowns	K R AW1 N Z	3.17	1.46024846077892	croons	ow
+mcdowell	M AH0 K D AW1 AH0 L	3.17	1.49004944977441	mcdooell	ow
+outback	AW1 T B AE2 K	3.17	1.46521529227817	ootback	ou
+outlets	AW1 T L EH2 T S	3.17	1.48011578677591	ootlets	ou
+clout	K L AW1 T	3.16	1.44038113478193	cloot	ou
+crowning	K R AW1 N IH0 NG	3.16	1.42548064028418	crooning	ow
+rowdy	R AW1 D IY0	3.16	1.43044747178343	roody	ow
+wowed	W AW1 D	3.16	1.44534796628117	wooed	ow
+bowed	B AW1 D	3.15	1.41058014578644	booed	ow
+outwards	AW1 T W ER0 D Z	3.15	1.42051380878493	ootwards	ou
+trowel	T R AW1 W EH0 L	3.15	1.41058014578644	trooel	ow
+rounding	R AW1 N D IH0 NG	3.14	1.38077915679095	roonding	ou
+scouting	S K AW1 T AH0 N	3.14	1.39071281978945	scooting	ou
+downloaded	D AW1 N L OW2 D AH0 D	3.13	1.34601133629621	doonloaded	ow
+proudest	P R AW1 D AH0 S T	3.13	1.33111084179847	proodest	ou
+browns	B R AW1 N Z	3.12	1.30627668430223	broons	ow
+flowery	F L AW1 ER0 IY0	3.12	1.31124351580148	flooery	ow
+housewives	HH AW1 S W AY2 V Z	3.12	1.32614401029922	hoosewives	ou
+mounds	M AW1 N D Z	3.12	1.31621034730073	moonds	ou
+southport	S AW1 TH P AO2 R T	3.12	1.32614401029922	soothport	ou
+bowels	B AW1 AH0 L Z	3.11	1.28640935830524	booels	ow
+browsing	B R AW1 Z IH0 NG	3.11	1.29634302130373	broosing	ow
+outcry	AW1 T K R AY2	3.11	1.29137618980449	ootcry	ou
+outward	AW1 T W ER0 D	3.11	1.28144252680599	ootward	ou
+stroud	S T R AW1 D	3.11	1.27647569530674	strood	ou
+tout	T AW1 T	3.11	1.29634302130373	toot	ou
+accountancy	AH0 K AW1 N T AH0 N S IY0	3.1	1.261575200809	accoontancy	ou
+empowered	IH2 M P AW1 ER0 D	3.1	1.24667470631125	empooered	ow
+fouled	F AW1 L D	3.1	1.2516415378105	fooled	ou
+growl	G R AW1 L	3.1	1.2516415378105	grool	ow
+outlining	AW1 T L AY2 N IH0 NG	3.1	1.2516415378105	ootlining	ou
+prowl	P R AW1 L	3.1	1.261575200809	prool	ow
+devout	D IH0 V AW1 T	3.09	1.23177421181351	devoot	ou
+empowering	IH2 M P AW1 ER0 IH0 NG	3.09	1.23177421181351	empooering	ow
+moussa	M AW1 S AH0	3.09	1.23674104331276	moossa	ou
+blouse	B L AW1 S	3.08	1.20197322281802	bloose	ou
+downgrade	D AW1 N G R EY0 D	3.08	1.20197322281802	doongrade	ow
+uptown	AH1 P T AW1 N	3.08	1.18707272832028	uptoon	ow
+grounding	G R AW1 N D AH0 N	3.07	1.18210589682103	groonding	ou
+astounded	AH0 S T AW1 N D AH0 D	3.06	1.15230490782554	astoonded	ou
+cowardly	K AW1 ER0 D L IY0	3.06	1.1374044133278	cooardly	ow
+empower	IH2 M P AW1 ER0	3.06	1.15727173932479	empooer	ow
+mountainous	M AW1 N T AH0 N AH0 S	3.06	1.15727173932479	moontainous	ou
+scoured	S K AW1 ER0 D	3.06	1.13243758182855	scoored	ou
+townsend	T AW1 N Z AH0 N D	3.06	1.15230490782554	toonsend	ow
+downloading	D AW1 N L OW2 D IH0 NG	3.05	1.10760342433231	doonloading	ow
+householders	HH AW1 S HH OW2 L D ER0 Z	3.05	1.11257025583156	hooseholders	ou
+powerfully	P AW1 ER0 F L IY0	3.05	1.1274707503293	pooerfully	ow
+shrouded	SH R AW1 D AH0 D	3.05	1.10760342433231	shrooded	ou
+aground	AH0 G R AW1 N D	3.04	1.10263659283306	agroond	ou
+counters	K AW1 N T ER0 Z	3.04	1.08773609833532	coonters	ou
+rounder	R AW1 N D ER0	3.04	1.08773609833532	roonder	ou
+outburst	AW1 T B ER2 S T	3.03	1.06786877233832	ootburst	ou
+scouse	S L AW1 S	3.03	1.05793510933983	scoose	ou
+superpowers	S UW2 P ER0 P AW1 ER0 Z	3.03	1.07283560383757	superpooers	ow
+crowley	K R AW1 L IY0	3.02	1.04303461484208	crooley	ow
+howler	HH AW1 L ER0	3.02	1.03806778334284	hooler	ow
+outweigh	AW1 T W EY2	3.02	1.03806778334284	ootweigh	ou
+bowing	B AW1 IH0 NG	3.01	1.02316728884509	booing	ow
+downright	D AW1 N R AY2 T	3.01	1.0132336258466	doonright	ow
+hourly	AW1 R L IY0	3.01	1.02813412034434	hoorly	ou
+chow	CH AW1	3	1.0032999628481	choo	ow
+aroused	ER0 AW1 Z D	2.99	0.963565310854116	aroosed	ou
+boulton	B AW1 L T AH0 N	2.99	0.963565310854116	boolton	ou
+foundry	F AW1 N D R IY0	2.99	0.983432636851108	foondry	ou
+mowing	M AW1 IH0 NG	2.99	0.983432636851108	mooing	ow
+overpower	OW2 V ER0 P AW1 ER0	2.99	0.97846580535186	overpooer	ow
+gowns	G AW1 N Z	2.98	0.948664816356372	goons	ow
+township	T AW1 N SH IH2 P	2.98	0.948664816356372	toonship	ow
+clouded	K L AW1 D AH0 D	2.97	0.938731153357876	clooded	ou
+frowned	F R AW1 N D	2.97	0.938731153357876	frooned	ow
+outdone	AW1 T D AH1 N	2.97	0.923830658860132	ootdone	ou
+outlawed	AW1 T L AO2 D	2.97	0.938731153357876	ootlawed	ou
+amounted	AH0 M AW1 N AH0 D	2.96	0.90396333286314	amoonted	ou
+housekeeping	HH AW1 S K IY2 P IH0 NG	2.96	0.90396333286314	hoosekeeping	ou
+mouthed	M AW1 DH D	2.96	0.908930164362388	moothed	ou
+owt	AW1 T	2.96	0.898996501363892	oot	ow
+sprouting	S P R AW1 T IH0 NG	2.95	0.889062838365396	sprooting	ou
+cowards	K AW1 ER0 D Z	2.94	0.859261849369908	cooards	ow
+townhouse	T AW1 N HH AW2 S	2.94	0.864228680869156	toonhouse	ou
+bouncers	B AW1 N S ER0 Z	2.93	0.85429501787066	booncers	ou
+outlines	AW1 T L AY2 N Z	2.93	0.844361354872164	ootlines	ou
+outpost	AW1 T P OW2 S T	2.93	0.85429501787066	ootpost	ou
+vouch	V AW1 CH	2.93	0.844361354872164	vooch	ou
+downer	D AW1 N ER0	2.92	0.834427691873668	dooner	ow
+outreach	AW1 T R IY2 CH	2.92	0.824494028875172	ootreach	ou
+showered	SH AW1 ER0 D	2.92	0.834427691873668	shooered	ow
+browned	B R AW1 N D	2.91	0.799659871378931	brooned	ow
+brownfield	B R AW1 N F IY2 L D	2.91	0.814560365876676	broonfield	ow
+compounded	K AH0 M P AW1 N D AH0 D	2.91	0.814560365876676	compoonded	ou
+denounced	D AH0 N AW1 N S T	2.91	0.809593534377428	denoonced	ou
+downey	D AW1 N IY0	2.91	0.80462670287818	dooney	ow
+howie	HH AW1 IY0	2.91	0.809593534377428	hooie	ow
+recount	R IH0 K AW1 N T	2.91	0.814560365876676	recoont	ou
+spouse	S P AW1 S	2.91	0.799659871378931	spoose	ou
+unfounded	AH0 N F AW1 N D AH0 D	2.91	0.799659871378931	unfoonded	ou
+pounced	P AW1 N S T	2.9	0.789726208380436	poonced	ou
+bouts	B AW1 T S	2.89	0.764892050884195	boots	ou
+scoundrels	S K AW1 N D R AH0 L Z	2.89	0.779792545381939	scoondrels	ou
+vowel	V AW1 AH0 L	2.89	0.774825713882691	vooel	ow
+doubters	D AW1 T ER0 Z	2.88	0.749991556386451	doobters	ou
+flowered	F L AW1 ER0 D	2.88	0.759925219384947	flooered	ow
+mouthing	M AW1 DH IH0 NG	2.88	0.759925219384947	moothing	ou
+ousted	AW1 S T AH0 D	2.88	0.759925219384947	oosted	ou
+rounders	R AW1 N D ER0 Z	2.88	0.754958387885699	roonders	ou
+brough	B R AW1	2.87	0.730124230389459	broogh	ou
+doubtless	D AW1 T L AH0 S	2.87	0.740057893387955	doobtless	ou
+rouse	R AW1 Z	2.87	0.745024724887203	roose	ou
+scoundrel	S K AW1 N D R AH0 L	2.87	0.745024724887203	scoondrel	ou
+unannounced	AH2 N AH0 N AW1 N S T	2.87	0.745024724887203	unannoonced	ou
+yow	Y AW1	2.86	0.715223735891715	yoo	ow
+downpours	D AW1 N P AO2 R Z	2.85	0.705290072893219	doonpours	ou
+pounded	P AW1 N D AH0 D	2.85	0.710256904392467	poonded	ou
+pout	P AW1 T	2.85	0.705290072893219	poot	ou
+countenance	K AW1 N T AH0 N AH0 N S	2.84	0.690389578395475	coontenance	ou
+crowding	K R AW1 D IH0 NG	2.84	0.680455915396979	crooding	ow
+growls	G R AW1 L Z	2.84	0.695356409894723	grools	ow
+householder	HH AW1 S HH OW2 L D ER0	2.84	0.680455915396979	hooseholder	ou
+pouches	P AW1 CH AH0 Z	2.84	0.690389578395475	pooches	ou
+shroud	SH R AW1 D	2.84	0.685422746896227	shrood	ou
+sowed	S AW1 D	2.84	0.685422746896227	sooed	ow
+abouts	AH0 B AW1 T S	2.83	0.670522252398483	aboots	ou
+bowden	B AW1 D AH0 N	2.83	0.670522252398483	booden	ow
+counteract	K AW1 N T ER0 AE2 K T	2.83	0.675489083897731	coonteract	ou
+disallowed	D IH2 S AH0 L AW1 D	2.83	0.665555420899235	disallooed	ow
+downgrading	D AW1 N G R EY0 D IH0 NG	2.83	0.675489083897731	doongrading	ow
+downpour	D AW1 N P AO0 R	2.83	0.665555420899235	doonpour	ou
+mcgowan	M AH0 G AW1 AH0 N	2.83	0.670522252398483	mcgooan	ow
+renounce	R IH2 N AW1 N S	2.83	0.670522252398483	renoonce	ou
+browser	B R AW1 Z ER0	2.82	0.660588589399987	brooser	ow
+cowardice	K AW1 ER0 D AH0 S	2.82	0.650654926401491	cooardice	ow
+crouching	K R AW1 CH IH0 NG	2.82	0.650654926401491	crooching	ou
+devour	D IH0 V AW1 ER0	2.82	0.660588589399987	devoor	ou
+jousting	JH AW1 S T IH0 NG	2.82	0.655621757900739	joosting	ou
+noun	N AW1 N	2.82	0.660588589399987	noon	ou
+townshend	T AW1 N SH EH2 N D	2.82	0.650654926401491	toonshend	ow
+clouding	K L AW1 D IH0 NG	2.81	0.635754431903747	clooding	ou
+downed	D AW1 N D	2.81	0.635754431903747	dooned	ow
+empowerment	IH2 M P AW1 ER0 M AH0 N T	2.81	0.635754431903747	empooerment	ow
+jour	JH AW1 R	2.81	0.640721263402995	joor	ou
+mountainside	M AW1 N T AH0 N S AY2 D	2.81	0.640721263402995	moontainside	ou
+mousetrap	M AW1 S T R AE2 P	2.81	0.640721263402995	moosetrap	ou
+southall	S AW1 TH AH0 L	2.81	0.640721263402995	soothall	ou
+counsellors	K AW1 N S AH0 L ER0 Z	2.8	0.630787600404499	coonsellors	ou
+groundwork	G R AW1 N D W ER2 K	2.8	0.630787600404499	groondwork	ou
+outhouse	AW1 T HH AW2 S	2.8	0.625820768905251	oothouse	ou
+outings	AW1 T IH0 NG Z	2.8	0.630787600404499	ootings	ou
+overpowered	OW2 V ER0 P AW1 ER0 D	2.8	0.625820768905251	overpooered	ow
+droughts	D R AW1 T S	2.79	0.615887105906755	drooghts	ou
+fouling	F AW1 L IH0 NG	2.79	0.610920274407507	fooling	ou
+southbound	S AW1 TH B AW2 N D	2.79	0.615887105906755	soothbound	ou
+clowning	K L AW1 N IH0 NG	2.78	0.600986611409011	clooning	ow
+hounded	HH AW1 N D AH0 D	2.78	0.596019779909763	hoonded	ou
+prowling	P R AW1 L IH0 NG	2.78	0.600986611409011	prooling	ow
+howarth	HH AW1 AA0 R TH	2.77	0.586086116911267	hooarth	ow
+howls	HH AW1 L Z	2.77	0.586086116911267	hools	ow
+louth	L AW1 TH	2.77	0.591052948410515	looth	ou
+outwit	AW1 T W IH2 T	2.77	0.586086116911267	ootwit	ou
+southwell	S AW1 TH W EH2 L	2.77	0.591052948410515	soothwell	ou
+cowley	K AW1 L IY0	2.76	0.566218790914275	cooley	ow
+encountering	EH0 N K AW1 N ER0 IH0 NG	2.76	0.566218790914275	encoontering	ou
+floundering	F L AW1 N D ER0 IH0 NG	2.76	0.57615245391277	floondering	ou
+gout	G AW1 T	2.76	0.571185622413523	goot	ou
+dowling	D AW1 L IH0 NG	2.75	0.561251959415026	dooling	ow
+drowsy	D R AW1 Z IY0	2.75	0.556285127915778	droosy	ow
+endowed	EH0 N D AW1 D	2.75	0.561251959415026	endooed	ow
+prouder	P R AW1 D ER0	2.75	0.556285127915778	prooder	ou
+groundwater	G R AW1 N D W AA2 T ER0	2.74	0.546351464917282	groondwater	ou
+hourglass	AW1 ER0 G L AE2 S	2.74	0.546351464917282	hoorglass	ou
+insurmountable	IH2 N S ER0 M AW1 N T AH0 B AH0 L	2.74	0.541384633418034	insurmoontable	ou
+outlaws	AW1 T L AO2 Z	2.74	0.541384633418034	ootlaws	ou
+slouch	S L AW1 CH	2.74	0.55131829641653	slooch	ou
+abound	AH0 B AW1 N D	2.73	0.531450970419538	aboond	ou
+announcer	AH0 N AW1 N S ER0	2.73	0.536417801918786	annooncer	ou
+bower	B AW1 ER0	2.73	0.531450970419538	booer	ow
+confounded	K AH0 N F AW1 N D AH0 D	2.73	0.536417801918786	confoonded	ou
+groundhog	G R AW1 N D HH AA2 G	2.73	0.531450970419538	groondhog	ou
+outlying	AW1 T L AY2 IH0 NG	2.73	0.531450970419538	ootlying	ou
+flounder	F L AW1 N D ER0	2.72	0.516550475921794	floonder	ou
+amounting	AH0 M AW1 N IH0 NG	2.71	0.506616812923298	amoonting	ou
+bounding	B AW1 N D IH0 NG	2.71	0.511583644422546	boonding	ou
+dowry	D AW1 R IY0	2.71	0.511583644422546	doory	ow
+lounging	L AW1 N JH AH0 N	2.71	0.511583644422546	loonging	ou
+unaccounted	AH2 N AH0 K AW1 N T AH0 D	2.71	0.511583644422546	unaccoonted	ou
+bountiful	B AW1 N AH0 F AH0 L	2.7	0.50164998142405	boontiful	ou
+downes	D AW1 N Z	2.7	0.491716318425554	doones	ow
+downsides	D AW1 N S AY2 D Z	2.7	0.491716318425554	doonsides	ow
+outbursts	AW1 T B ER2 S	2.7	0.496683149924802	ootbursts	ou
+spouses	S P AW1 S AH0 Z	2.7	0.496683149924802	spooses	ou
+townships	T AW1 N SH IH2 P S	2.7	0.496683149924802	toonships	ow
+undoubted	AH0 N D AW1 T AH0 D	2.7	0.491716318425554	undoobted	ou
+bounded	B AW1 N D AH0 D	2.69	0.481782655427058	boonded	ou
+devoured	D IH0 V AW1 ER0 D	2.69	0.486749486926306	devoored	ou
+drowns	D R AW1 N Z	2.69	0.481782655427058	droons	ow
+mountaineer	M AW1 N T AH0 N IH2 R	2.69	0.486749486926306	moontaineer	ou
+mouthpiece	M AW1 TH P IY2 S	2.69	0.481782655427058	moothpiece	ou
+spouting	S P AW1 T IH0 NG	2.69	0.486749486926306	spooting	ou
+stoute	S T AW1 T	2.69	0.481782655427058	stoote	ou
+cowgirl	K AW1 G ER2 L	2.68	0.47681582392781	coogirl	ow
+outcast	AW1 T K AE2 S T	2.68	0.471848992428562	ootcast	ou
+showering	SH AW1 ER0 IH0 NG	2.68	0.471848992428562	shooering	ow
+soundly	S AW1 N D L IY0	2.68	0.47681582392781	soondly	ou
+bowers	B AW1 ER0 Z	2.67	0.461915329430066	booers	ow
+brows	B R AW1 Z	2.67	0.461915329430066	broos	ow
+howlett	HH AW1 L IH2 T	2.67	0.466882160929314	hoolett	ow
+louse	L AW1 S	2.67	0.461915329430066	loose	ou
+powders	P AW1 D ER0 Z	2.67	0.466882160929314	pooders	ow
+roundup	R AW1 N D AH2 P	2.67	0.461915329430066	roondup	ou
+soured	S AW1 ER0 D	2.67	0.461915329430066	soored	ou
+boundless	B AW1 N D L AH0 S	2.66	0.45198166643157	boondless	ou
+chowder	CH AW1 D ER0	2.66	0.456948497930818	chooder	ow
+crouched	K R AW1 CH T	2.66	0.456948497930818	crooched	ou
+mouthy	M AW1 TH IY0	2.66	0.456948497930818	moothy	ou
+oust	AW1 S T	2.66	0.456948497930818	oost	ou
+scouser	S K AW1 S ER0	2.66	0.456948497930818	scooser	ou
+coutts	K AW1 T S	2.65	0.442048003433074	cootts	ou
+cowan	K AW1 AH0 N	2.65	0.437081171933826	cooan	ow
+cowen	K AW1 AH0 N	2.65	0.442048003433074	cooen	ow
+dour	D AW1 ER0	2.65	0.447014834932322	door	ou
+downsized	D AW1 N S AY2 Z D	2.65	0.442048003433074	doonsized	ow
+flowerpot	F L AW1 ER0 P AA2 T	2.65	0.437081171933826	flooerpot	ow
+outen	AW1 T AH0 N	2.65	0.442048003433074	ooten	ou
+roundheads	R AW1 N D HH EH2 D Z	2.65	0.447014834932322	roondheads	ou
+roundhouse	R AW1 N D HH AW2 S	2.65	0.442048003433074	roondhouse	ou
+cowering	K AW1 ER0 IH0 NG	2.64	0.42714750893533	cooering	ow
+devouring	D IH0 V AW1 ER0 IH0 NG	2.64	0.42714750893533	devooring	ou
+howson	HH AW1 S AH0 N	2.64	0.432114340434578	hooson	ow
+howells	HH AW1 AH0 L Z	2.63	0.417213845936834	hooells	ow
+bough	B AW1	2.62	0.412247014437586	boogh	ou
+mouthwash	M AW1 TH W AA2 SH	2.62	0.412247014437586	moothwash	ou
+nouns	N AW1 N Z	2.62	0.412247014437586	noons	ou
+outbid	AW1 T B IH2 D	2.62	0.412247014437586	ootbid	ou
+arouse	ER0 AW1 Z	2.61	0.407280182938338	aroose	ou
+foundling	F AW1 N D L IH0 NG	2.61	0.407280182938338	foondling	ou
+gow	G AW1	2.61	0.407280182938338	goo	ow
+grout	G R AW1 T	2.61	0.40231335143909	groot	ou
+pounder	P AW1 N D ER0	2.61	0.40231335143909	poonder	ou
+denounce	D AH0 N AW1 N S	2.6	0.392379688440594	denoonce	ou
+dowdy	D AW1 D IY0	2.6	0.392379688440594	doody	ow
+downtime	D AW1 N T AY2 M	2.6	0.397346519939842	doontime	ow
+endowment	EH0 N D AW1 M AH0 N T	2.6	0.397346519939842	endooment	ow
+fouls	F AW1 L Z	2.6	0.392379688440594	fools	ou
+howley	HH AW1 L IY0	2.6	0.397346519939842	hooley	ow
+confound	K AA0 N F AW1 N D	2.59	0.387412856941346	confoond	ou
+counterfeiting	K AW1 N ER0 F IH2 T IH0 NG	2.59	0.387412856941346	coonterfeiting	ou
+touting	T AW1 T IH0 NG	2.59	0.387412856941346	tooting	ou
+townspeople	T AW1 N Z P IY2 P AH0 L	2.59	0.382446025442098	toonspeople	ow
+wowing	W AW1 IH0 NG	2.59	0.382446025442098	wooing	ow
+counterfeiters	K AW1 N ER0 F IH2 T ER0 Z	2.58	0.37747919394285	coonterfeiters	ou
+foulkes	F AW1 L K S	2.58	0.372512362443602	foolkes	ou
+frowning	F R AW1 N IH0 NG	2.58	0.37747919394285	frooning	ow
+groucho	G R AW1 CH OW0	2.58	0.372512362443602	groocho	ou
+jowl	JH AW1 L	2.58	0.37747919394285	jool	ow
+outfield	AW1 T F IY2 L D	2.58	0.372512362443602	ootfield	ou
+powdery	P AW1 D ER0 IY0	2.58	0.37747919394285	poodery	ow
+roundhead	R AW1 N D HH EH2 D	2.58	0.372512362443602	roondhead	ou
+southgate	S AW1 TH G EY2 T	2.58	0.37747919394285	soothgate	ou
+outweighs	AW1 T W EY2 Z	2.57	0.367545530944354	ootweighs	ou
+mousehole	M AW1 S HH OW2 L	2.56	0.357611867945858	moosehole	ou
+scousers	S K AW1 S AH0 Z	2.56	0.357611867945858	scoosers	ou
+downy	D AW1 N IY0	2.55	0.35264503644661	doony	ow
+hounding	HH AW1 N D IH0 NG	2.55	0.35264503644661	hoonding	ou
+outcasts	AW1 T K AE2 S	2.55	0.347678204947362	ootcasts	ou
+pronouncing	P R AH0 N AW1 N S IH0 NG	2.55	0.347678204947362	pronooncing	ou
+renounced	R IH2 N AW1 N S T	2.55	0.347678204947362	renoonced	ou
+unaccountable	AH2 N AH0 K AW1 N T AH0 B AH0 L	2.55	0.347678204947362	unaccoontable	ou
+howled	HH AW1 L D	2.54	0.342711373448113	hooled	ow
+counterbalance	K AW1 N ER0 B AE2 L AH0 N S	2.53	0.337744541948865	coonterbalance	ou
+douse	D AW1 S	2.53	0.337744541948865	doose	ou
+flouting	F L AW1 T IH0 NG	2.53	0.332777710449617	flooting	ou
+pouncing	P AW1 N S IH0 NG	2.53	0.337744541948865	pooncing	ou
+roundly	R AW1 N D L IY0	2.53	0.332777710449617	roondly	ou
+townsfolk	T AW1 N Z F OW2 K	2.53	0.332777710449617	toonsfolk	ow
+wows	W AW1 Z	2.53	0.337744541948865	woos	ow
+bouche	B AW1 CH	2.52	0.327810878950369	booche	ou
+cowie	K AW1 IY0	2.52	0.322844047451121	cooie	ow
+impounded	IH2 M P AW1 N D AH0 D	2.52	0.327810878950369	impoonded	ou
+outwardly	AW1 T W ER0 D L IY0	2.52	0.327810878950369	ootwardly	ou
+prow	P R AW1	2.52	0.327810878950369	proo	ow
+denouncing	D AH0 N AW1 N S IH0 NG	2.5	0.307943552953377	denooncing	ou
+flout	F L AW1 T	2.5	0.307943552953377	floot	ou
+gowing	G AW1 IH0 NG	2.5	0.312910384452625	gooing	ow
+outhouses	AW1 T HH AW2 S AH0 Z	2.5	0.307943552953377	oothouses	ou
+scrounging	S K R AW1 N JH IH0 NG	2.5	0.307943552953377	scroonging	ou
+boughs	B AW1 Z	2.49	0.302976721454129	booghs	ou
+groundswell	G R AW1 N D S W EH2 L	2.49	0.302976721454129	groondswell	ou
+thousandth	TH AW1 Z AH0 N D TH	2.49	0.302976721454129	thoosandth	ou
+growled	G R AW1 L D	2.48	0.298009889954881	grooled	ow
+loudspeaker	L AW1 D S P IY2 K ER0	2.48	0.298009889954881	loodspeaker	ou
+lounges	L AW1 N JH AH0 Z	2.48	0.298009889954881	loonges	ou
+soundtracks	S AW1 N D T R AE2 K S	2.48	0.298009889954881	soondtracks	ou
+outboard	AW1 T B AO2 R D	2.47	0.293043058455633	ootboard	ou
+outposts	AW1 T P OW2 S	2.47	0.288076226956385	ootposts	ou
+recounts	R IH0 K AW1 N T S	2.47	0.288076226956385	recoonts	ou
+sprouted	S P R AW1 T AH0 D	2.47	0.288076226956385	sprooted	ou
+trounced	T R AW1 N S T	2.47	0.293043058455633	troonced	ou
+touted	T AW1 T AH0 D	2.46	0.283109395457137	tooted	ou
+browner	B R AW1 N ER0	2.45	0.278142563957889	brooner	ow
+councilors	K AW1 N S AH0 L ER0 Z	2.45	0.278142563957889	cooncilors	ou
+counterpoint	K AW1 N ER0 P OY2 N T	2.45	0.278142563957889	coonterpoint	ou
+dowd	D AW1 D	2.45	0.278142563957889	dood	ow
+macgowan	M AH0 G AW1 AH0 N	2.45	0.278142563957889	macgooan	ow
+pouting	P AW1 T IH0 NG	2.45	0.278142563957889	pooting	ou
+unsound	AH0 N S AW1 N D	2.45	0.278142563957889	unsoond	ou
+brownlow	B R AW1 N L OW2	2.44	0.273175732458641	broonlow	ow
+cowed	K AW1 D	2.44	0.273175732458641	cooed	ow
+dowager	D AW1 AH0 JH ER0	2.44	0.273175732458641	dooager	ow
+floured	F L AW1 AH0 D	2.44	0.273175732458641	floored	ou
+houseboat	HH AW1 S B OW2 T	2.44	0.268208900959393	hooseboat	ou
+joust	JH AW1 S T	2.44	0.273175732458641	joost	ou
+outshine	AW1 CH AY2 N	2.44	0.268208900959393	ootshine	ou
+outsmart	AW1 T S M AA2 R T	2.44	0.273175732458641	ootsmart	ou
+pronouncements	P R AH0 N AW1 N S M AH0 N T S	2.43	0.263242069460145	pronooncements	ou
+towered	T AW1 ER0 D	2.43	0.263242069460145	tooered	ow
+cower	K AW1 ER0	2.42	0.258275237960897	cooer	ow
+recounted	R IH0 K AW1 N AH0 D	2.42	0.258275237960897	recoonted	ou
+renown	R AH0 N AW1 N	2.42	0.258275237960897	renoon	ow
+soundbites	S AW1 N D B AY2 T S	2.41	0.253308406461649	soondbites	ou
+gouge	G AW1 JH	2.4	0.248341574962401	googe	ou
+outed	AW1 T AH0 D	2.4	0.248341574962401	ooted	ou
+arousing	ER0 AW1 Z IH0 NG	2.39	0.243374743463153	aroosing	ou
+astound	AH0 S T AW1 N D	2.39	0.238407911963905	astoond	ou
+brownish	B R AW1 N IH2 SH	2.39	0.243374743463153	broonish	ow
+doused	D AW1 S T	2.39	0.238407911963905	doosed	ou
+gouged	G AW1 JH D	2.39	0.243374743463153	googed	ou
+grouting	G R AW1 T IH0 NG	2.39	0.238407911963905	grooting	ou
+lout	L AW1 T	2.39	0.238407911963905	loot	ou
+outgunned	AW1 T G AH2 N D	2.39	0.238407911963905	ootgunned	ou
+soundbite	S AW1 N D B AY2 T	2.39	0.238407911963905	soondbite	ou
+townhouses	T AW1 N HH AW2 S AH0 Z	2.39	0.243374743463153	toonhouses	ou
+countering	K AW1 N ER0 IH0 NG	2.38	0.233441080464657	coontering	ou
+doubtfire	D AW1 T F AY2 ER0	2.38	0.233441080464657	doobtfire	ou
+foundries	F AW1 N D R IY0 Z	2.38	0.233441080464657	foondries	ou
+howden	HH AW1 D AH0 N	2.38	0.233441080464657	hooden	ow
+countered	K AW1 N ER0 D	2.37	0.228474248965409	coontered	ou
+counterproductive	K AW1 N ER0 P R AH0 D AH2 K T IH0 V	2.37	0.228474248965409	coonterproductive	ou
+empowers	IH2 M P AW1 ER0 Z	2.37	0.228474248965409	empooers	ow
+frowns	F R AW1 N Z	2.37	0.228474248965409	froons	ow
+blouses	B L AW1 S AH0 Z	2.36	0.223507417466161	blooses	ou
+counterattack	K AW1 N ER0 AH0 T AE2 K	2.36	0.223507417466161	coonterattack	ou
+flounce	F L AW1 N S	2.36	0.223507417466161	floonce	ou
+floundered	F L AW1 N D ER0 D	2.36	0.223507417466161	floondered	ou
+loudon	L AW1 D AH0 N	2.36	0.223507417466161	loodon	ou
+mccloud	M AH0 K L AW1 D	2.36	0.223507417466161	mcclood	ou
+outtakes	AW1 T EY2 K S	2.36	0.223507417466161	oottakes	ou
+browsers	B R AW1 Z ER0 Z	2.35	0.218540585966913	broosers	ow
+compounding	K AH0 M P AW1 N D IH0 NG	2.35	0.218540585966913	compoonding	ou
+counterweight	K AW1 N T ER0 W EY2 T	2.35	0.218540585966913	coonterweight	ou
+crowther	K R AW1 DH ER0	2.35	0.218540585966913	croother	ow
+endowments	EH0 N D AW1 M AH0 N T S	2.35	0.218540585966913	endooments	ow
+dowsing	D AW1 S IH0 NG	2.34	0.213573754467665	doosing	ow
+housekeepers	HH AW1 S K IY2 P ER0 Z	2.34	0.213573754467665	hoosekeepers	ou
+powerhouses	P AW1 ER0 HH AW2 S AH0 Z	2.34	0.213573754467665	pooerhouses	ou
+soundings	S AW1 N D IH0 NG Z	2.34	0.213573754467665	soondings	ou
+touts	T AW1 T S	2.34	0.213573754467665	toots	ou
+allowable	AH0 L AW1 AH0 B AH0 L	2.33	0.208606922968417	allooable	ow
+cowl	K AW1 L	2.33	0.208606922968417	cool	ow
+inbound	IH2 N B AW1 N D	2.33	0.208606922968417	inboond	ou
+newfound	N UW1 F AW1 N D	2.33	0.208606922968417	newfoond	ou
+rebounded	R IY0 B AW1 N D AH0 D	2.33	0.208606922968417	reboonded	ou
+vowing	V AW1 IH0 NG	2.33	0.208606922968417	vooing	ow
+boughton	B AW1 T AH0 N	2.32	0.203640091469169	booghton	ou
+gouging	G AW1 JH IH0 NG	2.32	0.203640091469169	googing	ou
+outperform	AW1 T P ER0 F AO2 R M	2.32	0.203640091469169	ootperform	ou
+proust	P R AW1 S T	2.32	0.203640091469169	proost	ou
+cloudless	K L AW1 D L AH0 S	2.31	0.198673259969921	cloodless	ou
+cowdrey	K AW1 D R IY0	2.31	0.198673259969921	coodrey	ow
+grouchy	G R AW1 CH IY0	2.31	0.198673259969921	groochy	ou
+groundnut	G R AW1 N D N AH2 T	2.31	0.198673259969921	groondnut	ou
+outperforming	AW1 T P ER0 F AO2 R M IH0 NG	2.31	0.198673259969921	ootperforming	ou
+housman	HH AW1 S M AH0 N	2.3	0.193706428470673	hoosman	ou
+outperformed	AW1 T P ER0 F AO2 R M D	2.3	0.193706428470673	ootperformed	ou
+powerboat	P AW1 ER0 B OW2 T	2.3	0.193706428470673	pooerboat	ow
+scrounge	S K R AW1 N JH	2.3	0.193706428470673	scroonge	ou
+abounds	AH0 B AW1 N D Z	2.29	0.188739596971425	aboonds	ou
+downplayed	D AW1 N P L EY2 D	2.29	0.188739596971425	doonplayed	ow
+ousting	AW1 S T IH0 NG	2.29	0.188739596971425	oosting	ou
+powis	P AW1 IH2 S	2.29	0.188739596971425	poois	ow
+southward	S AW1 TH W ER0 D	2.29	0.188739596971425	soothward	ou
+scouted	S K AW1 T AH0 D	2.28	0.183772765472177	scooted	ou
+couches	K AW1 CH AH0 Z	2.26	0.178805933972929	cooches	ou
+downe	D AW1 N	2.26	0.178805933972929	doone	ow
+flouted	F L AW1 T AH0 D	2.26	0.178805933972929	flooted	ou
+houseful	HH AW1 S F AH0 L	2.26	0.178805933972929	hooseful	ou
+mountjoy	M AW1 N T JH OY2	2.26	0.178805933972929	moontjoy	ou
+scours	S K AW1 ER0 Z	2.26	0.178805933972929	scoors	ou
+slouching	S L AW1 CH IH0 NG	2.26	0.178805933972929	slooching	ou
+townie	T AW1 N IY0	2.26	0.178805933972929	toonie	ow
+arousal	ER0 AW1 Z AH0 L	2.25	0.173839102473681	aroosal	ou
+downplay	D AW1 N P L EY2	2.25	0.173839102473681	doonplay	ow
+flounders	F L AW1 N D ER0 Z	2.25	0.173839102473681	floonders	ou
+loudmouth	L AW1 D M AW2 TH	2.25	0.173839102473681	loodmouth	ou
+prowse	P R AW1 Z	2.25	0.173839102473681	proose	ow
+scowl	S K AW1 L	2.25	0.173839102473681	scool	ow
+trounce	T R AW1 N S	2.25	0.173839102473681	troonce	ou
+bowery	B AW1 ER0 IY0	2.24	0.168872270974433	booery	ow
+downham	D AW1 N HH AH0 M	2.24	0.168872270974433	doonham	ow
+loudspeakers	L AW1 D S P IY2 K ER0 Z	2.24	0.168872270974433	loodspeakers	ou
+recounting	R IH0 K AW1 N IH0 NG	2.24	0.168872270974433	recoonting	ou
+redoubtable	R AH0 D AW1 T AH0 B AH0 L	2.24	0.168872270974433	redoobtable	ou
+counterfeits	K AW1 N ER0 F IH2 T S	2.23	0.163905439475185	coonterfeits	ou
+devours	D IH0 V AW1 ER0 Z	2.23	0.163905439475185	devoors	ou
+dousing	D AW1 S IH0 NG	2.23	0.163905439475185	doosing	ou
+downie	D AW1 N IY0	2.23	0.163905439475185	doonie	ow
+southam	S AW1 TH AH0 M	2.23	0.163905439475185	sootham	ou
+bounder	B AW1 N D ER0	2.21	0.158938607975937	boonder	ou
+cowman	K AW1 M AH0 N	2.21	0.158938607975937	cooman	ow
+espouse	AH0 S P AW1 S	2.21	0.158938607975937	espoose	ou
+outriders	AW1 T R AY2 D ER0 Z	2.21	0.158938607975937	ootriders	ou
+espoused	AH0 S P AW1 S T	2.2	0.153971776476689	espoosed	ou
+grouch	G R AW1 CH	2.2	0.153971776476689	grooch	ou
+mounties	M AW1 N IY0 Z	2.2	0.153971776476689	moonties	ou
+outermost	AW1 T ER0 M OW2 S T	2.2	0.153971776476689	ootermost	ou
+outpatient	AW1 T P EY2 SH AH0 N T	2.2	0.153971776476689	ootpatient	ou
+outsides	AW1 T S AY1 D Z	2.2	0.153971776476689	ootsides	ou
+couched	K AW1 CH T	2.19	0.149004944977441	cooched	ou
+counterculture	K AW1 N ER0 K AH2 L CH ER0	2.19	0.149004944977441	coonterculture	ou
+foundered	F AW1 N D ER0 D	2.19	0.149004944977441	foondered	ou
+outlast	AW1 T L AE2 S T	2.19	0.149004944977441	ootlast	ou
+confounding	K AH0 N F AW1 N D IH0 NG	2.17	0.144038113478193	confoonding	ou
+groundless	G R AW1 N D L AH0 S	2.17	0.144038113478193	groondless	ou
+kowtow	K AW1 T AW1	2.17	0.144038113478193	kootow	ow
+outflank	AW1 T F L AE2 NG K	2.17	0.144038113478193	ootflank	ou
+outpaced	AW1 T P EY2 S T	2.17	0.144038113478193	ootpaced	ou
+countertenor	K AW1 N T ER0 T EH2 N ER0	2.16	0.139071281978945	coontertenor	ou
+downgrades	D AW1 N G R EY0 D Z	2.16	0.139071281978945	doongrades	ow
+fowkes	F AW1 K S	2.16	0.139071281978945	fookes	ow
+outnumbering	AW1 T N AH2 M B ER0 IH0 NG	2.16	0.139071281978945	ootnumbering	ou
+flours	F L AW1 ER0 Z	2.14	0.134104450479697	floors	ou
+smouse	S M AW1 S	2.14	0.134104450479697	smoose	ou
+souter	S AW1 T ER0	2.14	0.134104450479697	sooter	ou
+cowgirls	K AW1 G ER2 L Z	2.13	0.129137618980449	coogirls	ow
+crowder	K R AW1 D ER0	2.13	0.129137618980449	crooder	ow
+downcast	D AW1 N K AE2 S T	2.13	0.129137618980449	dooncast	ow
+downturns	D AW1 N T ER2 N Z	2.13	0.129137618980449	doonturns	ow
+resoundingly	R AH0 Z AW1 N D IH0 NG L IY0	2.13	0.129137618980449	resoondingly	ou
+shrouds	SH R AW1 D Z	2.13	0.129137618980449	shroods	ou
+arouses	ER0 AW1 Z AH0 Z	2.11	0.124170787481201	arooses	ou
+astoundingly	AH0 S T AW1 N D IH0 NG L IY0	2.11	0.124170787481201	astoondingly	ou
+joubert	Y AW1 B ER0 T	2.11	0.124170787481201	joobert	ou
+outtake	AW1 T EY2 K	2.11	0.124170787481201	oottake	ou
+prowler	P R AW1 L ER0	2.11	0.124170787481201	prooler	ow
+rebounding	R IY0 B AW1 N D IH0 NG	2.11	0.124170787481201	reboonding	ou
+avowed	AH0 V AW1 D	2.09	0.119203955981953	avooed	ow
+counterfeited	K AW1 N ER0 F IH2 T AH0 D	2.09	0.119203955981953	coonterfeited	ou
+cowbell	K AW1 B EH2 L	2.09	0.119203955981953	coobell	ow
+cowper	K AW1 P ER0	2.09	0.119203955981953	cooper	ow
+drowsiness	D R AW1 Z IY0 N AH0 S	2.09	0.119203955981953	droosiness	ow
+macdowell	M AH0 K D AW1 AH0 L	2.09	0.119203955981953	macdooell	ow
+outpace	AW1 T P EY2 S	2.09	0.119203955981953	ootpace	ou
+outrages	AW1 T R EY2 JH AH0 Z	2.09	0.119203955981953	ootrages	ou
+southside	S AW1 TH S AY2 D	2.09	0.119203955981953	soothside	ou
+unbounded	AH0 N B AW1 N D AH0 D	2.09	0.119203955981953	unboonded	ou
+abounded	AH0 B AW1 N D AH0 D	2.08	0.114237124482704	aboonded	ou
+boucher	B AW1 CH ER0	2.08	0.114237124482704	boocher	ou
+cowling	K AW1 L IH0 NG	2.08	0.114237124482704	cooling	ow
+devoutly	D IH0 V AW1 T L IY0	2.08	0.114237124482704	devootly	ou
+howes	HH AW1 Z	2.08	0.114237124482704	hooes	ow
+impound	IH2 M P AW1 N D	2.08	0.114237124482704	impoond	ou
+mows	M AW1 Z	2.08	0.114237124482704	moos	ow
+outages	AW1 T IH0 JH AH0 Z	2.08	0.114237124482704	ootages	ou
+outsize	AW1 T S AY2 Z	2.08	0.114237124482704	ootsize	ou
+poulton	P AW1 L T AH0 N	2.08	0.114237124482704	poolton	ou
+prout	P R AW1 T	2.08	0.114237124482704	proot	ou
+redoubt	R AH0 D AW1 T	2.08	0.114237124482704	redoobt	ou
+resound	R IY2 S AW1 N D	2.08	0.114237124482704	resoond	ou
+sounder	S AW1 N D ER0	2.08	0.114237124482704	soonder	ou
+unwound	AH0 N W AW1 N D	2.08	0.114237124482704	unwoond	ou
+browsed	B R AW1 Z D	2.06	0.109270292983456	broosed	ow
+dower	D AW1 R	2.06	0.109270292983456	dooer	ow
+houseman	HH AW1 S M AH0 N	2.06	0.109270292983456	hooseman	ou
+lowrey	L AW1 R IY0	2.06	0.109270292983456	loorey	ow
+mispronounced	M IH2 S P R AH0 N AW1 N S T	2.06	0.109270292983456	mispronoonced	ou
+outputs	AW1 T P UH2 T S	2.06	0.109270292983456	ootputs	ou
+pounders	P AW1 N D ER0 Z	2.06	0.109270292983456	poonders	ou
+trousered	T R AW1 Z EH0 D	2.06	0.109270292983456	troosered	ou
+unbound	AH0 N B AW1 N D	2.06	0.109270292983456	unboond	ou
+dougall	D AW1 G AH0 L	2.04	0.104303461484208	doogall	ou
+kowtowing	K AW2 T AW1 IH0 NG	2.04	0.104303461484208	kootowing	ow
+pronouncement	P R AH0 N AW1 N S M AH0 N T	2.04	0.104303461484208	pronooncement	ou
+pronounces	P R AH0 N AW1 N S AH0 Z	2.04	0.104303461484208	pronoonces	ou
+rerouted	R IY0 R AW1 T AH0 D	2.04	0.104303461484208	rerooted	ou
+scowling	S K AW1 L IH0 NG	2.04	0.104303461484208	scooling	ow
+sours	S AW1 ER0 Z	2.04	0.104303461484208	soors	ou
+brownlie	B R AW1 N L IY0	2.02	0.0993366299849604	broonlie	ow
+counsels	K AW1 N S AH0 L Z	2.02	0.0993366299849604	coonsels	ou
+downers	D AW1 N ER0 Z	2.02	0.0993366299849604	dooners	ow
+downplaying	D AW1 N P L EY2 IH0 NG	2.02	0.0993366299849604	doonplaying	ow
+outbound	AW1 T B AW2 N D	2.02	0.0993366299849604	ootbound	ou
+rouch	R AW1 CH	2.02	0.0993366299849604	rooch	ou
+townley	T AW1 N L IY0	2.02	0.0993366299849604	toonley	ow
+croucher	K R AW1 CH ER0	2	0.0943697984857124	croocher	ou
+dowel	D AW1 AH0 L	2	0.0943697984857124	dooel	ow
+outsized	AW1 T S AY2 Z D	2	0.0943697984857124	ootsized	ou
+renouncing	R IH2 N AW1 N S IH0 NG	2	0.0943697984857124	renooncing	ou
+reroute	R IY0 R AW1 T	2	0.0943697984857124	reroote	ou
+roundy	R AW1 N D IY0	2	0.0943697984857124	roondy	ou
+souring	S AW1 ER0 IH0 NG	2	0.0943697984857124	sooring	ou
+announcers	AH0 N AW1 N S ER0 Z	1.97	0.0894029669864644	annooncers	ou
+carousing	K ER0 AW1 Z IH0 NG	1.97	0.0894029669864644	caroosing	ou
+counterterrorism	K AW1 N ER0 T EH2 R ER0 IH2 Z AH0 M	1.97	0.0894029669864644	coonterterrorism	ou
+dowding	D AW1 D IH0 NG	1.97	0.0894029669864644	dooding	ow
+outflow	AW1 T F L OW2	1.97	0.0894029669864644	ootflow	ou
+outlasted	AW1 T L AE2 S T AH0 D	1.97	0.0894029669864644	ootlasted	ou
+outlooks	AW1 T L UH2 K S	1.97	0.0894029669864644	ootlooks	ou
+powdering	P AW1 D ER0 IH0 NG	1.97	0.0894029669864644	poodering	ow
+underpowered	AH0 N D ER0 P AW1 ER0 D	1.97	0.0894029669864644	underpooered	ow
+chowdhury	CH AW1 D HH Y UW0 R IY0	1.95	0.0844361354872164	choodhury	ow
+confounds	K AH0 N F AW1 N D Z	1.95	0.0844361354872164	confoonds	ou
+cowslip	K AW1 S L IH2 P	1.95	0.0844361354872164	cooslip	ow
+dhows	D AW1 Z	1.95	0.0844361354872164	dhoos	ow
+drownings	D R AW1 N IH0 NG Z	1.95	0.0844361354872164	droonings	ow
+foust	F AW1 S T	1.95	0.0844361354872164	foost	ou
+jowly	JH AW1 L IY0	1.95	0.0844361354872164	jooly	ow
+mcdowall	M AH0 K D AW1 AH0 L	1.95	0.0844361354872164	mcdooall	ow
+outlawing	AW1 T L AO2 IH0 NG	1.95	0.0844361354872164	ootlawing	ou
+outwitting	AW1 T W IH2 T IH0 NG	1.95	0.0844361354872164	ootwitting	ou
+powerlessness	P AW1 ER0 L AH0 S N AH0 S	1.95	0.0844361354872164	pooerlessness	ow
+shrouding	SH R AW1 D IH0 NG	1.95	0.0844361354872164	shrooding	ou
+stoutly	S T AW1 T L IY0	1.95	0.0844361354872164	stootly	ou
+surmounted	S ER0 M AW1 N T AH0 D	1.95	0.0844361354872164	surmoonted	ou
+trouncing	T R AW1 N S IH0 NG	1.95	0.0844361354872164	trooncing	ou
+astounds	AH0 S T AW1 N D Z	1.93	0.0794693039879684	astoonds	ou
+councilor	K AW1 N S AH0 L ER0	1.93	0.0794693039879684	cooncilor	ou
+counteracted	K AW1 N T ER0 AE2 K T AH0 D	1.93	0.0794693039879684	coonteracted	ou
+doubter	D AW1 T ER0	1.93	0.0794693039879684	doobter	ou
+dougan	D AW1 G AH0 N	1.93	0.0794693039879684	doogan	ou
+dowels	D AW1 AH0 L Z	1.93	0.0794693039879684	dooels	ow
+downstage	D AW1 N S T EY2 JH	1.93	0.0794693039879684	doonstage	ow
+foulness	F AW1 L N AH0 S	1.93	0.0794693039879684	foolness	ou
+howitzer	HH AW1 AH0 T S ER0	1.93	0.0794693039879684	hooitzer	ow
+jowett	JH AW1 EH0 T	1.93	0.0794693039879684	jooett	ow
+jowls	JH AW1 L Z	1.93	0.0794693039879684	jools	ow
+outage	AW1 T AH0 JH	1.93	0.0794693039879684	ootage	ou
+outpacing	AW1 T P EY2 S IH0 NG	1.93	0.0794693039879684	ootpacing	ou
+vouched	V AW1 CH T	1.93	0.0794693039879684	vooched	ou
+bouton	B AW1 T AH0 N	1.9	0.0745024724887203	booton	ou
+cloudburst	K L AW1 D B ER2 S T	1.9	0.0745024724887203	cloodburst	ou
+dowie	D AW1 IY0	1.9	0.0745024724887203	dooie	ow
+glower	G L AW1 ER0	1.9	0.0745024724887203	glooer	ow
+mountaintop	M AW1 N T AH0 N T AA2 P	1.9	0.0745024724887203	moontaintop	ou
+outclass	AW1 T K L AE2 S	1.9	0.0745024724887203	ootclass	ou
+outlier	AW1 T L AY0 ER0	1.9	0.0745024724887203	ootlier	ou
+poundage	P AW1 N D IH0 JH	1.9	0.0745024724887203	poondage	ou
+scoutmaster	S K AW1 T M AE2 S T ER0	1.9	0.0745024724887203	scootmaster	ou
+townes	T AW1 N Z	1.9	0.0745024724887203	toones	ow
+brownsville	B R AW1 N Z V IH2 L	1.87	0.0695356409894723	broonsville	ow
+dowse	D AW1 S	1.87	0.0695356409894723	doose	ow
+espousing	AH0 S P AW1 S IH0 NG	1.87	0.0695356409894723	espoosing	ou
+glowering	G L AW1 ER0 IH0 NG	1.87	0.0695356409894723	glooering	ow
+mispronounce	M IH2 S P R AH0 N AW1 N S	1.87	0.0695356409894723	mispronoonce	ou
+mouthparts	M AW1 TH P AA2 R T S	1.87	0.0695356409894723	moothparts	ou
+powwow	P AW1 W AW2	1.87	0.0695356409894723	poowow	ow
+unaccountably	AH2 N AH0 K AW1 N T AH0 B L IY0	1.87	0.0695356409894723	unaccoontably	ou
+blabbermouth	B L AE1 B ER0 M AW1 TH	1.84	0.0645688094902243	blabbermooth	ou
+counteracts	K AW1 N T ER0 AE2 K T S	1.84	0.0645688094902243	coonteracts	ou
+downdraft	D AW1 N D R AE2 F T	1.84	0.0645688094902243	doondraft	ow
+endow	EH0 N D AW1	1.84	0.0645688094902243	endoo	ow
+loughner	L AW1 N ER0	1.84	0.0645688094902243	looghner	ou
+outdid	AW1 T D IH2 D	1.84	0.0645688094902243	ootdid	ou
+proudfoot	P R AW1 D F UH2 T	1.84	0.0645688094902243	proodfoot	ou
+counterfeiter	K AW1 N ER0 F IH2 T ER0	1.81	0.0596019779909763	coonterfeiter	ou
+cowles	K AW1 AH0 L Z	1.81	0.0596019779909763	cooles	ow
+expounded	IH0 K S P AW1 N D AH0 D	1.81	0.0596019779909763	expoonded	ou
+fowles	F AW1 AH0 L Z	1.81	0.0596019779909763	fooles	ow
+mcgough	M AH0 G AW1	1.81	0.0596019779909763	mcgoogh	ou
+mountaintops	M AW1 N T AH0 N T AA2 P S	1.81	0.0596019779909763	moontaintops	ou
+outbidding	AW1 T B IH2 D IH0 NG	1.81	0.0596019779909763	ootbidding	ou
+outfitter	AW1 T F IH2 T ER0	1.81	0.0596019779909763	ootfitter	ou
+plowman	P L AW1 M AH0 N	1.81	0.0596019779909763	plooman	ow
+spouted	S P AW1 T AH0 D	1.81	0.0596019779909763	spooted	ou
+thousandths	TH AW1 Z AH0 N D TH S	1.81	0.0596019779909763	thoosandths	ou
+towner	T AW1 N ER0	1.81	0.0596019779909763	tooner	ow
+unbowed	AH0 N B AW1 D	1.81	0.0596019779909763	unbooed	ow
+cloudiness	K L AW1 D IY0 N AH0 S	1.77	0.0546351464917282	cloodiness	ou
+countervailing	K AW1 N T ER0 V EY2 L IH0 NG	1.77	0.0546351464917282	coontervailing	ou
+crowne	K R AW1 N	1.77	0.0546351464917282	croone	ow
+disallow	D IH2 S AH0 L AW1	1.77	0.0546351464917282	disalloo	ow
+expound	IH0 K S P AW1 N D	1.77	0.0546351464917282	expoond	ou
+rerouting	R IY0 R AW1 T IH0 NG	1.77	0.0546351464917282	rerooting	ou
+roundtree	R AW1 N D T R IY2	1.77	0.0546351464917282	roondtree	ou
+scrounged	S K R AW1 N JH D	1.77	0.0546351464917282	scroonged	ou
+southwick	S AW1 TH W IH0 K	1.77	0.0546351464917282	soothwick	ou
+arounds	ER0 AW1 N D Z	1.74	0.0496683149924802	aroonds	ou
+boulanger	B AW1 L AH0 NG ER0	1.74	0.0496683149924802	boolanger	ou
+browed	B R AW1 D	1.74	0.0496683149924802	brooed	ow
+brownstone	B R AW1 N S T OW2 N	1.74	0.0496683149924802	broonstone	ow
+counterclaim	K AW1 N T ER0 K L EY2 M	1.74	0.0496683149924802	coonterclaim	ou
+denounces	D AH0 N AW1 N S AH0 Z	1.74	0.0496683149924802	denoonces	ou
+disavow	D IH2 S AH0 V AW1	1.74	0.0496683149924802	disavoo	ow
+foundering	F AW1 N D ER0 IH0 NG	1.74	0.0496683149924802	foondering	ou
+hout	HH AW1 T	1.74	0.0496683149924802	hoot	ou
+outfitted	AW1 T F IH2 T AH0 D	1.74	0.0496683149924802	ootfitted	ou
+outgrowing	AW1 T G R OW2 IH0 NG	1.74	0.0496683149924802	ootgrowing	ou
+southland	S AW1 TH L AE2 N D	1.74	0.0496683149924802	soothland	ou
+abounding	AH0 B AW1 N D IH0 NG	1.7	0.0447014834932322	aboonding	ou
+bouch	B AW1 CH	1.7	0.0447014834932322	booch	ou
+bounciness	B AW1 N S IY0 N AH0 S	1.7	0.0447014834932322	boonciness	ou
+bounties	B AW1 N T IY0 Z	1.7	0.0447014834932322	boonties	ou
+bour	B AW1 R	1.7	0.0447014834932322	boor	ou
+doub	D AW1 B	1.7	0.0447014834932322	doob	ou
+flounces	F L AW1 N S AH0 Z	1.7	0.0447014834932322	floonces	ou
+howitt	HH AW1 IH2 T	1.7	0.0447014834932322	hooitt	ow
+loughney	L AW1 N IY0	1.7	0.0447014834932322	looghney	ou
+mountainsides	M AW1 N T AH0 N S AY2 D Z	1.7	0.0447014834932322	moontainsides	ou
+mouthpieces	M AW1 TH P IY2 S AH0 Z	1.7	0.0447014834932322	moothpieces	ou
+outrigger	AW1 T R IH2 G ER0	1.7	0.0447014834932322	ootrigger	ou
+poulson	P AW1 L S AH0 N	1.7	0.0447014834932322	poolson	ou
+roulston	R AW1 L S T AH0 N	1.7	0.0447014834932322	roolston	ou
+rowdiness	R AW1 D IY0 N AH0 S	1.7	0.0447014834932322	roodiness	ow
+surmount	S ER0 M AW1 N T	1.7	0.0447014834932322	surmoont	ou
+surmounting	S ER0 M AW1 N T IH0 NG	1.7	0.0447014834932322	surmoonting	ou
+thous	DH AW1 Z	1.7	0.0447014834932322	thoos	ou
+vowles	V AW1 AH0 L Z	1.7	0.0447014834932322	vooles	ow
+bowater	B AW1 AH2 T ER0	1.65	0.0397346519939842	booater	ow
+counseling	K AW1 N S AH0 L IH0 NG	1.65	0.0397346519939842	coonseling	ou
+disallowance	D IH2 S AH0 L AW1 AH0 N S	1.65	0.0397346519939842	disallooance	ow
+downscale	D AW1 N S K EY2 L	1.65	0.0397346519939842	doonscale	ow
+espouses	AH0 S P AW1 S AH0 Z	1.65	0.0397346519939842	espooses	ou
+expounding	IH0 K S P AW1 N D IH0 NG	1.65	0.0397346519939842	expoonding	ou
+glowered	G L AW1 ER0 D	1.65	0.0397346519939842	glooered	ow
+groundskeeper	G R AW1 N D S K IY2 P ER0	1.65	0.0397346519939842	groondskeeper	ou
+outgrowth	AW1 T G R OW2 TH	1.65	0.0397346519939842	ootgrowth	ou
+outperforms	AW1 T P ER0 F AO1 R M Z	1.65	0.0397346519939842	ootperforms	ou
+outraging	AW1 T R EY2 JH IH0 NG	1.65	0.0397346519939842	ootraging	ou
+outrider	AW1 T R AY2 D ER0	1.65	0.0397346519939842	ootrider	ou
+plowright	P L AW1 R AY2 T	1.65	0.0397346519939842	plooright	ow
+pouts	P AW1 T S	1.65	0.0397346519939842	poots	ou
+pouty	P AW1 T IY0	1.65	0.0397346519939842	pooty	ou
+pownall	P AW1 N AH0 L	1.65	0.0397346519939842	poonall	ow
+propounded	P R AH0 P AW1 N D AH0 D	1.65	0.0397346519939842	propoonded	ou
+soundness	S AW1 N D N AH0 S	1.65	0.0397346519939842	soondness	ou
+southdown	S AW1 TH D AW2 N	1.65	0.0397346519939842	soothdown	ou
+uncountable	AH0 N K AW1 N T AH0 B AH0 L	1.65	0.0397346519939842	uncoontable	ou
+yousif	Y AW1 S IH2 F	1.65	0.0397346519939842	yoosif	ou
+bialkowski	B IY0 AH0 L K AW1 S K IY0	1.6	0.0347678204947362	bialkooski	ow
+blount	B L AW1 N T	1.6	0.0347678204947362	bloont	ou
+clowes	K L AW1 Z	1.6	0.0347678204947362	clooes	ow
+counsell	K AW1 N S AH0 L	1.6	0.0347678204947362	coonsell	ou
+cowbells	K AW1 B EH2 L Z	1.6	0.0347678204947362	coobells	ow
+cowherd	K AW1 HH ER2 D	1.6	0.0347678204947362	cooherd	ow
+cowries	K AW1 R IY0 Z	1.6	0.0347678204947362	coories	ow
+disavowed	D IH2 S AH0 V AW1 D	1.6	0.0347678204947362	disavooed	ow
+fowle	F AW1 AH0 L	1.6	0.0347678204947362	foole	ow
+gowans	G AW1 AH0 N Z	1.6	0.0347678204947362	gooans	ow
+howitzers	HH AW1 AH0 T S ER0 Z	1.6	0.0347678204947362	hooitzers	ow
+khoury	K AW1 R IY0	1.6	0.0347678204947362	khoory	ou
+loughran	L AW1 R AH0 N	1.6	0.0347678204947362	looghran	ou
+loughry	L AW1 R IY0	1.6	0.0347678204947362	looghry	ou
+outerwear	AW1 T ER0 W EH2 R	1.6	0.0347678204947362	ooterwear	ou
+outfitting	AW1 T F IH2 T IH0 NG	1.6	0.0347678204947362	ootfitting	ou
+outweighing	AW1 T W EY2 IH0 NG	1.6	0.0347678204947362	ootweighing	ou
+renounces	R IH2 N AW1 N S AH0 Z	1.6	0.0347678204947362	renoonces	ou
+scowled	S K AW1 L D	1.6	0.0347678204947362	scooled	ow
+afoul	AH0 F AW1 L	1.54	0.0298009889954881	afool	ou
+brownson	B R AW1 N S AH0 N	1.54	0.0298009889954881	broonson	ow
+counterclaims	K AW1 N T ER0 K L EY2 M Z	1.54	0.0298009889954881	coonterclaims	ou
+countermeasure	K AW1 N ER0 M EH2 ZH ER0	1.54	0.0298009889954881	coontermeasure	ou
+daoud	D AW1 D	1.54	0.0298009889954881	daood	ou
+facedown	F EY2 S D AW1 N	1.54	0.0298009889954881	facedoon	ow
+gowan	G AW1 AH0 N	1.54	0.0298009889954881	gooan	ow
+houseguest	HH AW1 S G EH0 S T	1.54	0.0298009889954881	hooseguest	ou
+housings	HH AW1 Z IH0 NG Z	1.54	0.0298009889954881	hoosings	ou
+howser	HH AW1 Z ER0	1.54	0.0298009889954881	hooser	ow
+lowery	L AW1 ER0 IY0	1.54	0.0298009889954881	looery	ow
+mouser	M AW1 Z ER0	1.54	0.0298009889954881	mooser	ou
+plow	P L AW1	1.54	0.0298009889954881	ploo	ow
+plows	P L AW1 Z	1.54	0.0298009889954881	ploos	ow
+powergen	P AW1 ER0 JH EH2 N	1.54	0.0298009889954881	pooergen	ow
+townsley	T AW1 N S L IY0	1.54	0.0298009889954881	toonsley	ow
+brower	B R AW1 ER0	1.47	0.0248341574962401	brooer	ow
+countdowns	K AW1 N T D AW2 N Z	1.47	0.0248341574962401	coontdowns	ou
+countenanced	K AW1 N T AH0 N AH0 N S T	1.47	0.0248341574962401	coontenanced	ou
+countermeasures	K AW1 N ER0 M EH2 ZH ER0 Z	1.47	0.0248341574962401	coontermeasures	ou
+discounters	D IH2 S K AW1 N T ER0 Z	1.47	0.0248341574962401	discoonters	ou
+downwardly	D AW1 N W ER0 D L IY0	1.47	0.0248341574962401	doonwardly	ow
+endowing	EH0 N D AW1 IH0 NG	1.47	0.0248341574962401	endooing	ow
+goudie	G AW1 D IY0	1.47	0.0248341574962401	goodie	ou
+gouty	G AW1 T IY0	1.47	0.0248341574962401	gooty	ou
+hougham	HH AW1 AH0 M	1.47	0.0248341574962401	hoogham	ou
+houten	HH AW1 T EH0 N	1.47	0.0248341574962401	hooten	ou
+howey	HH AW1 IY0	1.47	0.0248341574962401	hooey	ow
+howk	HH AW1 K	1.47	0.0248341574962401	hook	ow
+miscount	M IH1 S K AW1 N T	1.47	0.0248341574962401	miscoont	ou
+mounsey	M AW1 N S IY0	1.47	0.0248341574962401	moonsey	ou
+outflows	AW1 T F L OW2 Z	1.47	0.0248341574962401	ootflows	ou
+outguess	AW1 T G EH2 S	1.47	0.0248341574962401	ootguess	ou
+plowing	P L AW1 IH0 NG	1.47	0.0248341574962401	plooing	ow
+powerbook	P AW1 ER0 B UH2 K	1.47	0.0248341574962401	pooerbook	ow
+powter	P AW1 T ER0	1.47	0.0248341574962401	pooter	ow
+roundworm	R AW1 N D W ER0 M	1.47	0.0248341574962401	roondworm	ou
+rowdies	R AW1 D IY0 Z	1.47	0.0248341574962401	roodies	ow
+scow	S K AW1	1.47	0.0248341574962401	scoo	ow
+slouches	S L AW1 CH AH0 Z	1.47	0.0248341574962401	slooches	ou
+southwood	S AW1 TH W UH2 D	1.47	0.0248341574962401	soothwood	ou
+spousal	S P AW1 Z AH0 L	1.47	0.0248341574962401	spoosal	ou
+towners	T AW1 N ER0 Z	1.47	0.0248341574962401	tooners	ow
+ultrasounds	AH2 L T R AH0 S AW1 N D Z	1.47	0.0248341574962401	ultrasoonds	ou
+uncounted	AH2 N K AW1 N T AH0 D	1.47	0.0248341574962401	uncoonted	ou
+browbeat	B R AW1 B IY2 T	1.39	0.0198673259969921	broobeat	ow
+cowgill	K AW1 G IH2 L	1.39	0.0198673259969921	coogill	ow
+crowden	K R AW1 D AH0 N	1.39	0.0198673259969921	crooden	ow
+disallowing	D IH2 S AH0 L AW1 IH0 NG	1.39	0.0198673259969921	disallooing	ow
+dowland	D AW1 L AH0 N D	1.39	0.0198673259969921	dooland	ow
+fout	F AW1 T	1.39	0.0198673259969921	foot	ou
+houchen	HH AW1 K AH0 N	1.39	0.0198673259969921	hoochen	ou
+housebroken	HH AW1 S B R OW2 K AH0 N	1.39	0.0198673259969921	hoosebroken	ou
+kowal	K AW1 AH0 L	1.39	0.0198673259969921	kooal	ow
+lour	L AW1 R	1.39	0.0198673259969921	loor	ou
+n'dour	N D AW1 R	1.39	0.0198673259969921	n'door	ou
+outcries	AW1 T K R AY2 Z	1.39	0.0198673259969921	ootcries	ou
+outfielder	AW1 T F IY2 L D ER0	1.39	0.0198673259969921	ootfielder	ou
+powerball	P AW1 ER0 B AO2 L	1.39	0.0198673259969921	pooerball	ow
+propound	P R AH0 P AW1 N D	1.39	0.0198673259969921	propoond	ou
+proulx	P R AW1 L K S	1.39	0.0198673259969921	proolx	ou
+southfield	S AW1 TH F IY2 L D	1.39	0.0198673259969921	soothfield	ou
+sproul	S P R AW1 L	1.39	0.0198673259969921	sprool	ou
+vouching	V AW1 CH IH0 NG	1.39	0.0198673259969921	vooching	ou
+avow	AH0 V AW1	1.3	0.0149004944977441	avoo	ow
+avowedly	AH0 V AW1 AH0 D L IY0	1.3	0.0149004944977441	avooedly	ow
+burnouts	B ER1 N AW1 T	1.3	0.0149004944977441	burnoots	ou
+coull	K AW1 L	1.3	0.0149004944977441	cooll	ou
+couser	K AW1 S ER0	1.3	0.0149004944977441	cooser	ou
+doud	D AW1 D	1.3	0.0149004944977441	dood	ou
+dowden	D AW1 D AH0 N	1.3	0.0149004944977441	dooden	ow
+enshrouded	AH0 N SH R AW1 D AH0 D	1.3	0.0149004944977441	enshrooded	ou
+fouse	F AW1 S	1.3	0.0149004944977441	foose	ou
+grousing	G R AW1 S IH0 NG	1.3	0.0149004944977441	groosing	ou
+housden	HH AW1 S D AH0 N	1.3	0.0149004944977441	hoosden	ou
+housewares	HH AW1 S W EH2 R Z	1.3	0.0149004944977441	hoosewares	ou
+howton	HH AW1 T AH0 N	1.3	0.0149004944977441	hooton	ow
+louden	L AW1 D AH0 N	1.3	0.0149004944977441	looden	ou
+moul	M AW1 L	1.3	0.0149004944977441	mool	ou
+outlays	AW1 T L EY2 Z	1.3	0.0149004944977441	ootlays	ou
+outspending	AW1 T S P EH2 N D IH0 NG	1.3	0.0149004944977441	ootspending	ou
+powley	P AW1 L IY0	1.3	0.0149004944977441	pooley	ow
+roundworms	R AW1 N D W ER0 M Z	1.3	0.0149004944977441	roondworms	ou
+soundest	S AW1 N D AH0 S T	1.3	0.0149004944977441	soondest	ou
+towne	T AW1 N	1.3	0.0149004944977441	toone	ow
+trower	T R AW1 ER0	1.3	0.0149004944977441	trooer	ow
+wowie	W AW1 IY0	1.3	0.0149004944977441	wooie	ow
+broward	B R AW1 ER0 D	1.17	0.00993366299849604	brooard	ow
+brownley	B R AW1 N L IY0	1.17	0.00993366299849604	broonley	ow
+carouse	K ER0 AW1 Z	1.17	0.00993366299849604	caroose	ou
+cofounder	K OW2 F AW1 N D ER0	1.17	0.00993366299849604	cofoonder	ou
+counterattacks	K AW1 N ER0 AH0 T AE2 K S	1.17	0.00993366299849604	coonterattacks	ou
+countermove	K AW1 N T ER0 M UW2 V	1.17	0.00993366299849604	coontermove	ou
+countertop	K AW1 N ER0 T AA2 P	1.17	0.00993366299849604	coontertop	ou
+cowart	K AW1 AA0 R T	1.17	0.00993366299849604	cooart	ow
+cowden	K AW1 D AH0 N	1.17	0.00993366299849604	cooden	ow
+cowperthwaite	K AW1 P ER0 TH W EY2 T	1.17	0.00993366299849604	cooperthwaite	ow
+crouse	K R AW1 S	1.17	0.00993366299849604	croose	ou
+desousa	D IH2 S AW1 S AH0	1.17	0.00993366299849604	desoosa	ou
+disavowing	D IH2 S AH0 V AW1 IH0 NG	1.17	0.00993366299849604	disavooing	ow
+dowds	D AW1 D Z	1.17	0.00993366299849604	doods	ow
+downgradings	D AW1 N G R EY0 D IH0 NG Z	1.17	0.00993366299849604	doongradings	ow
+downplays	D AW1 N P L EY2 Z	1.17	0.00993366299849604	doonplays	ow
+downrange	D AW1 N R EY2 N JH	1.17	0.00993366299849604	doonrange	ow
+downswing	D AW1 N S W IH0 NG	1.17	0.00993366299849604	doonswing	ow
+houghs	HH AW1 Z	1.17	0.00993366299849604	hooghs	ou
+housecleaning	HH AW1 S K L IY2 N IH0 NG	1.17	0.00993366299849604	hoosecleaning	ou
+houseware	HH AW1 S W EH2 R	1.17	0.00993366299849604	hooseware	ou
+impoundment	IH2 M P AW1 N D M AH0 N T	1.17	0.00993366299849604	impoondment	ou
+khouri	K AW1 R IY0	1.17	0.00993366299849604	khoori	ou
+kouns	K AW1 N Z	1.17	0.00993366299849604	koons	ou
+mcgowen	M AH0 G AW1 AH0 N	1.17	0.00993366299849604	mcgooen	ow
+mousley	M AW1 S L IY0	1.17	0.00993366299849604	moosley	ou
+nowaday	N AW1 AH0 D EY2	1.17	0.00993366299849604	nooaday	ow
+nowlan	N AW1 L AH0 N	1.17	0.00993366299849604	noolan	ow
+ouster	AW1 S T ER0	1.17	0.00993366299849604	ooster	ou
+outgun	AW1 T G AH2 N	1.17	0.00993366299849604	ootgun	ou
+outland	AW1 T L AE2 N D	1.17	0.00993366299849604	ootland	ou
+outpaces	AW1 T P EY2 S AH0 Z	1.17	0.00993366299849604	ootpaces	ou
+outskirt	AW1 T S K ER2 T	1.17	0.00993366299849604	ootskirt	ou
+outspend	AW1 T S P EH2 N D	1.17	0.00993366299849604	ootspend	ou
+pouter	P AW1 T ER0	1.17	0.00993366299849604	pooter	ou
+proudlock	P R AW1 D L AA0 K	1.17	0.00993366299849604	proodlock	ou
+prouse	P R AW1 S	1.17	0.00993366299849604	proose	ou
+prows	P R AW1 Z	1.17	0.00993366299849604	proos	ow
+shoutout	SH AW1 T AW2 T	1.17	0.00993366299849604	shootout	ou
+southway	S AW1 TH W EY2	1.17	0.00993366299849604	soothway	ou
+southworth	S AW1 TH W ER0 TH	1.17	0.00993366299849604	soothworth	ou
+townsman	T AW1 N Z M AH0 N	1.17	0.00993366299849604	toonsman	ow

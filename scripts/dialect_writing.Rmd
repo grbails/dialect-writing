@@ -1,0 +1,473 @@
+---
+title: Generating dialectal spellings to reflect phonological features of the North of England
+author: "George Bailey"
+date: "16/06/2018"
+output:
+  html_document:
+    df_print: paged
+    theme: flatly
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+editor_options:
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r packages}
+library(tidyverse)
+```
+
+# Preparing the standard spellings
+
+Read in the CMU pronouncing dictionary:
+
+```{r read dict}
+dict <- read.delim("../data/dict.txt", header=F, 
+                   col.names=c('standard.orth', 'standard.phones')) %>%
+  mutate(standard.orth = tolower(standard.orth))
+
+dict %>%
+  sample_n(15)
+```
+
+Now that we've loaded the data in, we first need to change any US spellings to their UK equivalent.
+
+## Change US \<z\> to UK \<s\>
+
+Firstly we need to change \<ize\> to \<ise\>. But we need to create a list of exceptions because there are some cases of \<ize\> which aren't variable:
+
+```{r}
+exceptions <- c('prize', 'prized', 'prizes', 'bitesize', 'capsize', 
+               'capsized', 'citizen', 'citizen\'s', 'citizenry', 
+               'citizens', 'citizens\'', 'citizenship', 'denizen', 
+               'denizens', 'downsize', 'downsized' , 'maize', 'maize\'s', 
+               'outsize', 'outsized', 'oversize', 'oversized', 'oversizes', 
+               'pint-size', 'pint-sized', 'seize', 'seized', 'seizes', 'size', 
+               'sizeable', 'sized', 'sizer', 'sizes', 'upsize', 'womanize', 'womanizer')
+```
+
+Now that we've noted these exceptions, we can simply replace every other example of \<ize\> with \<ise\>
+
+```{r}
+dict.new <- dict %>% 
+  mutate(standard.orth = case_when(
+    standard.orth %in% exceptions ~ as.character(standard.orth),
+    !standard.orth %in% exceptions ~ str_replace(standard.orth, 'ize', 'ise')))
+```
+
+Now we need to do the same for \<izing\> to \<ising\>, again with some exceptions:
+
+```{r}
+exceptions <- c('capsizing', 'downsizing', 'downsizings', 
+                'sizing', 'upsizing', 'womanizing')       
+
+dict.new <- dict.new %>%
+  mutate(standard.orth = case_when(
+    standard.orth %in% exceptions ~ as.character(standard.orth),
+    !standard.orth %in% exceptions ~ str_replace(standard.orth, 'izing', 'ising')
+  ))
+```
+
+Finally we need to change cases of \<ization\> and \<yze\> (e.g. *analyze*); these have no exceptions:
+
+```{r}
+dict.new <- dict.new %>%
+  mutate(standard.orth = str_replace(standard.orth, 'ization', 'isation'))
+
+dict.new <- dict.new %>%
+  mutate(standard.orth = str_replace(standard.orth, 'yze', 'yse'))
+```
+
+```{r}
+dict.new %>%
+  filter(str_detect(standard.orth, 'ise')) %>%
+  sample_n(10)
+```
+
+
+## Change US \<ou\> to UK \<o\>
+
+Now let's change US \<ou\> to UK \<o\>. Note how we use `\\b` around the inflected forms of *labor*; this is because `str_detect` uses partial string matching, which is great for the other items but in the case of *labor* we don't want the search picking up things like *eLABORate*. Adding `\\b` either side of the word means that it won't match that sequence of strings *within* a word.
+
+```{r}
+matches <- c('armor', 'behavior', 'color', 
+             'endeavor', 'favor', 'flavor', 
+             'glamor', 'honor', 'humor', 
+             '\\blabor\\b', '\\blabors\\b', '\\blabored\\b', '\\blaboring\\b',
+             'neighbor', 'rumor', 'savior', 
+             'savory', 'tumor')
+
+dict.new <- dict.new %>%
+  mutate(standard.orth = case_when(
+    str_detect(standard.orth, paste(matches, collapse='|')) ~ str_replace(standard.orth, 'or', 'our'),
+    !str_detect(standard.orth, paste(matches, collapse='|')) ~ standard.orth
+  ))
+```
+
+## Adding frequency counts
+
+One thing we also want to do is add some measure of word frequency to our dictionary (because in some cases we're only interested in the most frequent words). In the `data` folder we have another file, `SUBTLEX-UK.txt`, containing frequency measures from [a corpus of UK subtitles](http://crr.ugent.be/archives/1423).
+
+```{r}
+freq <- read.delim("../data/SUBTLEX-UK.txt", header=T)
+
+freq <- freq %>%
+  mutate(fpmw=FreqCount/201.3356,
+         fpmw.lemma=DomPoSLemmaTotalFreq/201.3356,
+         zipf=LogFreq.Zipf.,
+         zipf.lemma=log10(fpmw.lemma)+3) %>%
+  select(Spelling, zipf, zipf.lemma, fpmw, fpmw.lemma)
+
+freq %>%
+  sample_n(15)
+```
+
+Now let's join this frequency data to our dictionary:
+
+```{r}
+dict.new <- dict.new %>%
+  left_join(freq, by=c('standard.orth' = 'Spelling')) %>%
+  filter(!is.na(zipf)) %>%
+  select(-c(zipf.lemma, fpmw.lemma))
+```
+
+# Generating the dialectal spellings
+
+## (ing)
+
+Generating 'g-dropped' forms of **-ing**, with an optional apostrophe; i.e. each word has three possible spellings:
+
+* walk**ing**
+* walk**in**
+* walk**in'**
+
+We also need to filter the words by the phonemic transcription to avoid changing \<ing\> clusters in words like *ring*, which do not come under the envelope of variation; to do this we simply make sure the phonemic transcription contains some variation on IH0 NG (i.e. an unstressed KIT vowel followed by the velar nasal)
+
+```{r}
+ING.words <- dict.new %>%
+  filter(
+    str_detect(standard.orth, 'ing\\b') & 
+    str_detect(standard.phones, 'IH0 NG|AH0 N|IH0 N|AH0 NG')) %>%
+  filter(!duplicated(standard.orth))
+
+ING.words %>%
+  sample_n(15)
+```
+
+Now we can simply replace all instances of word-final \<ing\> with \<in\> and \<in'\>
+
+```{r}
+ING.words <- ING.words %>%
+  mutate(n = sub('ing\\b', 'in', standard.orth)) %>%
+  mutate(n.apos = sub('ing\\b', 'in\'', standard.orth)) %>%
+  gather('orth.type', 'phonetic.orth', 5:6) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  arrange(desc(zipf))
+
+ING.words %>%
+  slice(100:120)
+```
+
+## (th)-fronting
+
+Change instances of \<th\> to either \<f\> or \<v\>, depending on voicing, e.g.:
+
+* *tooth* > *toof*
+* *bathe* > *bave*
+
+```{r}
+THf.words <- dict.new %>%
+  filter(
+    str_detect(standard.orth, 'th') & 
+    str_detect(standard.phones, 'TH|DH')) %>%
+  filter(!duplicated(standard.orth))
+
+THf.words %>%
+  sample_n(15)
+```
+
+```{r}
+THf.words <- THf.words %>%
+  mutate(phonetic.orth = case_when(
+    str_detect(standard.phones, 'TH') ~ str_replace(standard.orth, 'th', 'f'),
+    str_detect(standard.phones, 'DH') ~ str_replace(standard.orth, 'th', 'v'))) %>%
+  mutate(type = case_when(
+    str_detect(standard.phones, 'TH') ~ 'TH',
+    str_detect(standard.phones, 'DH') ~ "DH")) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  arrange(desc(zipf))
+
+THf.words %>%
+  slice(150:170)
+```
+
+## (th)-stopping
+
+Similar to (th)-fronting, but the \<th\> cluster is replaced with \<t\> or \<d\> instead, depending on the voicing.
+
+```{r}
+THs.words <- dict.new %>%
+  filter(
+    str_detect(standard.orth, 'th') & 
+    str_detect(standard.phones, 'TH|DH')) %>%
+  filter(!duplicated(standard.orth))
+
+THs.words <- THs.words %>%
+  mutate(phonetic.orth = case_when(
+    str_detect(standard.phones, 'TH') ~ str_replace(standard.orth, 'th', 't'),
+    str_detect(standard.phones, 'DH') ~ str_replace(standard.orth, 'th', 'd'))) %>%
+  mutate(type = case_when(
+    str_detect(standard.phones, 'TH') ~ "TH",
+    str_detect(standard.phones, 'DH') ~ "DH")) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  arrange(desc(zipf))
+
+THs.words %>%
+  slice(10:20)
+```
+
+Note that some of these will need fixing (or some extra entries need adding at least), e.g. *there* > *der* (not *dere*), *the* > *da* (not just *de*) etc.
+
+## happY-laxing
+
+happY-laxing refers to lowering/backing of the final unstressed vowel in words such as *happy* and *city*, from [ɪ] to [ɛ]. This can be reflected orthographically as follows:
+
+* *happy* > *happeh*
+* *city* > *citeh*
+
+```{r}
+happY.words <- dict.new %>%
+  filter(
+    str_detect(standard.phones, 'IY0\\b') &
+    str_detect(standard.orth, 'y\\b')) %>%
+  filter(!duplicated(standard.orth))
+```
+
+```{r}
+happY.words <- happY.words %>%
+  mutate(phonetic.orth = str_replace(standard.orth, 'y\\b', 'eh')) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  arrange(desc(zipf))
+
+happY.words %>%
+  slice(10:20)
+```
+
+## Pre-lateral velarisation
+
+In certain regions of the North West (particularly Bolton), word-final /tl/ clusters can surface as [kl], e.g. in words such as *bottle* or *hospital*. Firstly to identify words that can undergo this process, we need to find orthographic \<-ttle\> or \<-tal\> clusters and make sure in the phonemic transcription there is a T AH0 L sequence (i.e. [təl])
+
+```{r}
+TL.words <- dict.new %>%
+  filter(str_detect(standard.phones, 'T[[:space:]]AH0[[:space:]]L') &
+         str_detect(standard.orth, '(ttle$)|(tal$)'))
+```
+
+Because these clusters are represented in two ways even in standard orthography, the code is a little more complex. To make matters worse, the non-standard spelling can also take on a number of forms, such as \<ckle\>, \<kkle\>, \<cle\> or \<cal\>.
+
+```{r}
+TL.words <- TL.words %>%
+  mutate(ck = case_when(
+    str_detect(standard.orth, 'ttle$') ~ str_replace(standard.orth, 'ttle', 'ckle'),
+    str_detect(standard.orth, 'tal$') ~ str_replace(standard.orth, 'tal', 'ckle'))) %>%
+  mutate(kk = case_when(
+    str_detect(standard.orth, 'ttle$') ~ str_replace(standard.orth, 'ttle', 'kkle'),
+    str_detect(standard.orth, 'tal$') ~ str_replace(standard.orth, 'tal', 'kkle'))) %>%
+  mutate(cle = str_replace(standard.orth, 'tal', 'cle')) %>%
+  mutate(cal = str_replace(standard.orth, 'tal', 'cal')) %>%
+  gather('orth.type', 'phonetic.orth', 5:8) %>%
+  filter(!standard.orth == phonetic.orth) %>%
+  arrange(desc(zipf))
+
+TL.words %>%
+  slice(10:20)
+```
+
+## (td)-deletion
+
+Reduction of word-final consonant clusters through coronal stop deletion. Firstly to identify words in the envelope of variation, we need a word-final [t] or [d] preceded by a more sonorous consonant, usually one of the following: [l, f, v, s, z]. Orthographically it should have a word-final \<t\> or \<d\>, optionally preceded by an \<e\>.
+
+```{r make TD list}
+TD.words <- dict.new %>%
+  filter(
+    str_detect(standard.phones, '[LFSVZ][[:space:]][TD]$') &
+    str_detect(standard.orth, '[^e][td]$')) %>%
+  filter(!duplicated(standard.orth)) %>%
+  arrange(desc(zipf))
+```
+
+```{r}
+TD.words <- TD.words %>%
+  mutate(phonetic.orth = str_replace(standard.orth, '[td]$', ''))
+
+TD.words %>%
+  slice(1:10)
+```
+
+
+## AW-to-UW
+
+Monophthongisation of /aʊ/ to [uː] is characteristic of Tyneside English. Orthographically this is reflected in a change from either \<ow\> or \<ou\> to \<oo\>
+
+```{r}
+AW.words <- dict.new %>%
+  filter(str_detect(standard.phones, 'AW1') &
+          str_detect(standard.orth, 'o[wu]')) %>%
+  mutate(phonetic.orth = str_replace(standard.orth, 'o[wu]', 'oo')) %>%
+  mutate(type = case_when(
+    str_detect(standard.orth, 'ou') ~ 'ou',
+    str_detect(standard.orth, 'ow') ~ 'ow')) %>%
+  arrange(desc(zipf)) %>%
+  filter(!duplicated(standard.orth))
+
+AW.words %>%
+  slice(1:10)
+```
+
+## (h)-dropping
+
+Deletion of word-initial /h/:
+
+```{r}
+H.words <- dict.new %>%
+  filter(str_detect(standard.phones, '^HH') & 
+         str_detect(standard.orth, '^h')) %>%
+  mutate(phonetic.orth = str_replace(standard.orth, '^h', '')) %>%
+  arrange(desc(zipf))
+
+H.words %>%
+  slice(1:10)
+```
+
+(note that many of these will need some manual adjustment)
+
+## T-to-R
+
+In some northern varieties, /t/ final in a monosyllabic word can become [ɹ] if followed by a vowel-initial word, but this is lexically restricted so it's easier just to list them manually:
+
+```{r}
+TtoR.words <- data.frame(standard.orth=c('lot of',
+                                         'get a',
+                                         'get out',
+                                         'get off',
+                                         'get up',
+                                         'shut up'),
+                         phonetic.orth=c('lorra',
+                                         'gerra',
+                                         'gerrout',
+                                         'gerroff',
+                                         'gerrup',
+                                         'shurrup'))
+
+head(TtoR.words)
+```
+
+## General consonant reduction
+
+Misc. consonantal reduction
+
+```{r make c.reduc list}
+c.reduc.words <- data.frame(standard.orth=c('doesn\'t',
+                                            'didn\'t',
+                                            'wasn\'t',
+                                            'isn\'t',
+                                            'of',
+                                            'of',
+                                            'with'),
+                          phonetic.orth=c('dunt',
+                                          'dint',
+                                          'want',
+                                          'int',
+                                          'o',
+                                          'a',
+                                          'wi'))
+
+head(c.reduc.words)
+```
+
+## General vowel reduction
+
+Misc. vocalic reduction
+
+```{r}
+v.reduc.words <- data.frame(standard.orth=c('your',
+                                            'yourself',
+                                            'you',
+                                            'you',
+                                            'I\'ve',
+                                            'I',
+                                            'I',
+                                            'our',
+                                            'our',
+                                            'my',
+                                            'my',
+                                            'were'),
+                            phonetic.orth=c('yer',
+                                            'yerself',
+                                            'ye',
+                                            'ya',
+                                            'av',
+                                            'a',
+                                            'ah',
+                                            'are',
+                                            'ar',
+                                            'mi',
+                                            'ma',
+                                            'wer'))
+
+head(v.reduc.words)
+```
+
+```{r make STRUT list, include=F}
+strut.words <- dict.new %>%
+  filter(str_detect(standard.phones, 'AH1')) %>%
+  arrange(desc(zipf))
+
+strut.words <- data.frame(standard.orth=c('done', 'love', 'enough', 'london'),
+                          foot=c('dun', 'luv', 'enuf', 'lundun'),
+                          strut=c('dan', 'lav', 'enaf', 'landan')) %>%
+  gather('type', 'phonetic.orth', 2:3) %>%
+  arrange(standard.orth)
+```
+
+```{r make lettER list, include=F}
+lettER.words <- data.frame(standard.orth=c('manchester', 'manchester'), phonetic.orth=c('manchestah', 'manchestoh'))
+```
+
+```{r make specific word list, include=F}
+specific.words <- data.frame(standard.orth=c('bus',
+                                             'cold',
+                                             'old',
+                                             'hold',
+                                             'told'),
+                             phonetic.orth=c('buz',
+                                             'cowd',
+                                             'owd',
+                                             'howd',
+                                             'towd'))
+```
+
+```{r export lists, include=F, eval=F}
+write.table(ING.words, file="../data/output/ING-words.txt", sep="\t", quote=F, row.names=F)
+
+write.table(THf.words, file="../data/output/TH-fronting-words.txt", sep="\t", quote=F, row.names=F)
+write.table(THs.words, file="../data/output/TH-stopping-words.txt", sep="\t", quote=F, row.names=F)
+write.table(TD.words, file="../data/output/TD-deletion-words.txt", sep="\t", quote=F, row.names=F)
+write.table(H.words, file="../data/output/H-dropping-words.txt", sep="\t", quote=F, row.names=F)
+
+write.table(happY.words, file="../data/output/happY-laxing-words.txt", sep="\t", quote=F, row.names=F)
+write.table(TL.words, file="../data/output/T-to-K-words.txt", sep="\t", quote=F, row.names=F)
+write.table(AW.words, file="../data/output/AW-to-UW-words.txt", sep="\t", quote=F, row.names=F)
+write.table(TtoR.words, file="../data/output/T-to-R-words.txt", sep="\t", quote=F, row.names=F)
+write.table(c.reduc.words, file="../data/output/c-reduced-words.txt", sep="\t", quote=F, row.names=F)
+write.table(v.reduc.words, file="../data/output/v-reduced-words.txt", sep="\t", quote=F, row.names=F)
+write.table(lettER.words, file="../data/output/lettER-lowering-words.txt", sep="\t", quote=F, row.names=F)
+
+write.table(specific.words, file="../data/output/specific-words.txt", sep="\t", quote=F, row.names=F)
+write.table(strut.words, file="../data/output/strut-words.txt", sep="\t", quote=F, row.names=F)
+```
+
