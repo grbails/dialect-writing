@@ -3,7 +3,6 @@ R script to produce dialectal spellings based on phonological features in the No
 
 Features included: 
 
-<<<<<<< HEAD
 * **(ing)**, e.g. *walking* > *walkin*
 * **(td)-deletion**, e.g. *just* > *jus*
 * **(th)-fronting**, e.g. *tooth* > *toof*
@@ -17,21 +16,6 @@ Features included:
 * **general vocalic reduction**, e.g. *yourself > *yerself*
 
 Takes the [CMU pronouncing dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) as input and adds frequency counts from the [SUBTLEX-UK corpus](http://crr.ugent.be/archives/1423).
-=======
-* (ing), e.g. walking > walkin
-* (td)-deletion, e.g. just > jus
-* (th)-fronting, e.g. tooth > toof
-* (th)-stopping, e.g. that > dat
-* (h)-dropping, e.g. happens > appens
-* happY-laxing, e.g. city > citeh
-* AW-to-UW, e.g. town > toon
-* T-to-K, e.g. bottle > bockle
-* T-to-R, e.g. got a > gorra
-* general consonantal reduction, e.g. doesn’t > dunt
-* general vocalic reduction, e.g. yourself > yerself
-
-Takes the CMU pronouncing dictionary as input (http://www.speech.cs.cmu.edu/cgi-bin/cmudict) and adds frequency counts from the SUBTLEX-UK corpus (http://crr.ugent.be/archives/1423).
->>>>>>> 3aa2be2243c8723e4ce221be3e7d50ee18fac86b
 
 Script used for the analysis presented in:
 
