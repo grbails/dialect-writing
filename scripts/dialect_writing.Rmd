@@ -82,13 +82,6 @@ dict.new <- dict.new %>%
   mutate(standard.orth = str_replace(standard.orth, 'yze', 'yse'))
 ```
 
-```{r}
-dict.new %>%
-  filter(str_detect(standard.orth, 'ise')) %>%
-  sample_n(10)
-```
-
-
 ## Change US \<ou\> to UK \<o\>
 
 Now let's change US \<ou\> to UK \<o\>. Note how we use `\\b` around the inflected forms of *labor*; this is because `str_detect` uses partial string matching, which is great for the other items but in the case of *labor* we don't want the search picking up things like *eLABORate*. Adding `\\b` either side of the word means that it won't match that sequence of strings *within* a word.
@@ -166,6 +159,7 @@ ING.words <- ING.words %>%
   mutate(n.apos = sub('ing\\b', 'in\'', standard.orth)) %>%
   gather('orth.type', 'phonetic.orth', 5:6) %>%
   filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, orth.type, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 ING.words %>%
@@ -199,6 +193,7 @@ THf.words <- THf.words %>%
     str_detect(standard.phones, 'TH') ~ 'TH',
     str_detect(standard.phones, 'DH') ~ "DH")) %>%
   filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, type, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 THf.words %>%
@@ -224,6 +219,7 @@ THs.words <- THs.words %>%
     str_detect(standard.phones, 'TH') ~ "TH",
     str_detect(standard.phones, 'DH') ~ "DH")) %>%
   filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, type, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 THs.words %>%
@@ -251,6 +247,7 @@ happY.words <- dict.new %>%
 happY.words <- happY.words %>%
   mutate(phonetic.orth = str_replace(standard.orth, 'y\\b', 'eh')) %>%
   filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 happY.words %>%
@@ -281,6 +278,7 @@ TL.words <- TL.words %>%
   mutate(cal = str_replace(standard.orth, 'tal', 'cal')) %>%
   gather('orth.type', 'phonetic.orth', 5:8) %>%
   filter(!standard.orth == phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, orth.type, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 TL.words %>%
@@ -291,18 +289,20 @@ TL.words %>%
 
 Reduction of word-final consonant clusters through coronal stop deletion. Firstly to identify words in the envelope of variation, we need a word-final [t] or [d] preceded by a more sonorous consonant, usually one of the following: [l, f, v, s, z]. Orthographically it should have a word-final \<t\> or \<d\>, optionally preceded by an \<e\>.
 
-```{r make TD list}
+```{r}
 TD.words <- dict.new %>%
   filter(
     str_detect(standard.phones, '[LFSVZ][[:space:]][TD]$') &
     str_detect(standard.orth, '[^e][td]$')) %>%
-  filter(!duplicated(standard.orth)) %>%
-  arrange(desc(zipf))
+  filter(!duplicated(standard.orth))
 ```
 
 ```{r}
 TD.words <- TD.words %>%
-  mutate(phonetic.orth = str_replace(standard.orth, '[td]$', ''))
+  mutate(phonetic.orth = str_replace(standard.orth, '[td]$', '')) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, standard.phones, zipf, fpmw) %>%
+  arrange(desc(zipf))
 
 TD.words %>%
   slice(1:10)
@@ -317,12 +317,18 @@ Monophthongisation of /aʊ/ to [uː] is characteristic of Tyneside English. Orth
 AW.words <- dict.new %>%
   filter(str_detect(standard.phones, 'AW1') &
           str_detect(standard.orth, 'o[wu]')) %>%
+  filter(!duplicated(standard.orth))
+```
+
+```{r}
+AW.words <- AW.words %>%
   mutate(phonetic.orth = str_replace(standard.orth, 'o[wu]', 'oo')) %>%
   mutate(type = case_when(
     str_detect(standard.orth, 'ou') ~ 'ou',
     str_detect(standard.orth, 'ow') ~ 'ow')) %>%
-  arrange(desc(zipf)) %>%
-  filter(!duplicated(standard.orth))
+  filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, standard.phones, zipf, fpmw) %>%
+  arrange(desc(zipf))
 
 AW.words %>%
   slice(1:10)
@@ -336,7 +342,14 @@ Deletion of word-initial /h/:
 H.words <- dict.new %>%
   filter(str_detect(standard.phones, '^HH') & 
          str_detect(standard.orth, '^h')) %>%
+  filter(!duplicated(standard.orth))
+```
+
+```{r}
+H.words <- H.words %>%
   mutate(phonetic.orth = str_replace(standard.orth, '^h', '')) %>%
+  filter(standard.orth != phonetic.orth) %>%
+  select(standard.orth, phonetic.orth, standard.phones, zipf, fpmw) %>%
   arrange(desc(zipf))
 
 H.words %>%
